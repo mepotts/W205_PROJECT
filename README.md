@@ -11,6 +11,17 @@ git pull
 Also edit the .git/config to change the following line to
 url = ssh://git@github.com/ganeshsberkeley/W205_PROJECT
 
+Key Generation
+--------------
+Generate ssh keys
+ssh-keygen -t rsa -C ganeshsberkeley@github.com
+
+ssh-copy-id ganeshsberkeley@github.com
+
+Copy the keys to the github (logon on to git hub, select the repo, click on settings, click on deploy keys, and add the keys there)
+cat ~/.ssh/id_rsa.pub
+
+
 
 
 Process to check in files
