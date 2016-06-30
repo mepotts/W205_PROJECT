@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2014v5.0" xsi:schemaLocation="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2015-11-06T07:46:57-08:00</ReturnTs>
+    <TaxPeriodEndDt>2014-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>KBL LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>535 FIFTH AVENUE 16TH FL</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10017</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990EZ</ReturnTypeCd>
+    <TaxPeriodBeginDt>2014-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>562629114</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>BROWN COMMUNITY DEVELOPMENT CORPORATION</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>BROW</BusinessNameControlTxt>
+      <PhoneNum>7186386121</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>484 WASHINGTON AVENUE</AddressLine1Txt>
+        <CityNm>BROOKLYN</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11238</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>CLINTON MILLER</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>7186386121</PhoneNum>
+      <SignatureDt>2015-11-06</SignatureDt>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>SANJAY SINGLA CPA</PreparerPersonNm>
+      <PhoneNum>2127859700</PhoneNum>
+      <PreparationDt>2015-11-06</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2014</TaxYr>
+    <BuildTS>2016-04-25 22:37:26Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS990EZ documentId="00000001" referenceDocumentName="IRS990ScheduleO ReasonableCauseExplanation TransfersPersonalBenefitsContractsDeclaration">
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+      <Organization501c3Ind referenceDocumentId="00000002" referenceDocumentName="IRS990ScheduleA">X</Organization501c3Ind>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <GrossReceiptsAmt>116465</GrossReceiptsAmt>
+      <InfoInScheduleOPartIInd>X</InfoInScheduleOPartIInd>
+      <ContributionsGiftsGrantsEtcAmt>22500</ContributionsGiftsGrantsEtcAmt>
+      <ProgramServiceRevenueAmt>93965</ProgramServiceRevenueAmt>
+      <MembershipDuesAmt>0</MembershipDuesAmt>
+      <InvestmentIncomeAmt>0</InvestmentIncomeAmt>
+      <CostOrOtherBasisExpenseSaleAmt>0</CostOrOtherBasisExpenseSaleAmt>
+      <GainOrLossFromSaleOfAssetsAmt>0</GainOrLossFromSaleOfAssetsAmt>
+      <GamingGrossIncomeAmt>0</GamingGrossIncomeAmt>
+      <FundraisingGrossIncomeAmt>0</FundraisingGrossIncomeAmt>
+      <SpecialEventsDirectExpensesAmt>0</SpecialEventsDirectExpensesAmt>
+      <SpecialEventsNetIncomeLossAmt>0</SpecialEventsNetIncomeLossAmt>
+      <CostOfGoodsSoldAmt>0</CostOfGoodsSoldAmt>
+      <GrossProfitLossSlsOfInvntryAmt>0</GrossProfitLossSlsOfInvntryAmt>
+      <TotalRevenueAmt>116465</TotalRevenueAmt>
+      <FeesAndOtherPymtToIndCntrctAmt>2600</FeesAndOtherPymtToIndCntrctAmt>
+      <OtherExpensesTotalAmt>113062</OtherExpensesTotalAmt>
+      <TotalExpensesAmt>115662</TotalExpensesAmt>
+      <ExcessOrDeficitForYearAmt>803</ExcessOrDeficitForYearAmt>
+      <NetAssetsOrFundBalancesBOYAmt>1040</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>1843</NetAssetsOrFundBalancesEOYAmt>
+      <CashSavingsAndInvestmentsGrp>
+        <BOYAmt>1040</BOYAmt>
+        <EOYAmt>1843</EOYAmt>
+      </CashSavingsAndInvestmentsGrp>
+      <Form990TotalAssetsGrp>
+        <BOYAmt>1040</BOYAmt>
+        <EOYAmt>1843</EOYAmt>
+      </Form990TotalAssetsGrp>
+      <NetAssetsOrFundBalancesGrp>
+        <BOYAmt>1040</BOYAmt>
+        <EOYAmt>1843</EOYAmt>
+      </NetAssetsOrFundBalancesGrp>
+      <PrimaryExemptPurposeTxt>TO EDUCATE CHILDREN AND ORGANIZE COMMUNITY FOR BETTER LIVELIHOOD</PrimaryExemptPurposeTxt>
+      <ProgramSrvcAccomplishmentGrp>
+        <DescriptionProgramSrvcAccomTxt>THE ORGANIZATION HELPS ELEMENTARY SCHOOL STUDENTS IN HOMEWORK HELP, STANDARDIZED TEST PREPARATION AND VARIOUS FIELD TRIPS.</DescriptionProgramSrvcAccomTxt>
+        <GrantsAndAllocationsAmt>116465</GrantsAndAllocationsAmt>
+        <ProgramServiceExpensesAmt>115662</ProgramServiceExpensesAmt>
+      </ProgramSrvcAccomplishmentGrp>
+      <TotalProgramServiceExpensesAmt>115662</TotalProgramServiceExpensesAmt>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>CLINTON MILLER</PersonNm>
+        <TitleTxt>PRESIDENT</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>ROLAND ROBINSON</PersonNm>
+        <TitleTxt>MEMBER</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>JOANNE BOBB</PersonNm>
+        <TitleTxt>SECRETARY</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+      <ChgMadeToOrgnzngDocNotRptInd>false</ChgMadeToOrgnzngDocNotRptInd>
+      <OrganizationHadUBIInd>false</OrganizationHadUBIInd>
+      <SubjectToProxyTaxInd referenceDocumentName="IRS990ScheduleC">false</SubjectToProxyTaxInd>
+      <OrganizationDissolvedEtcInd referenceDocumentName="IRS990ScheduleN BinaryAttachment">false</OrganizationDissolvedEtcInd>
+      <Form1120PolFiledInd>false</Form1120PolFiledInd>
+      <MadeLoansToFromOfficersInd>false</MadeLoansToFromOfficersInd>
+      <EngagedInExcessBenefitTransInd>false</EngagedInExcessBenefitTransInd>
+      <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      <StatesWhereCopyOfReturnIsFldCd>NY</StatesWhereCopyOfReturnIsFldCd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1Txt>THE ORGANIZATION</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>484 WASHINGTON AVENUE</AddressLine1Txt>
+          <CityNm>BROOKLYN</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>11238</ZIPCd>
+        </USAddress>
+        <PhoneNum>7186386121</PhoneNum>
+      </BooksInCareOfDetail>
+      <ForeignFinancialAccountInd>false</ForeignFinancialAccountInd>
+      <ForeignOfficeInd>false</ForeignOfficeInd>
+      <DonorAdvisedFndsInd>false</DonorAdvisedFndsInd>
+      <OperateHospitalInd>false</OperateHospitalInd>
+      <TanningServicesProvidedInd>false</TanningServicesProvidedInd>
+      <RelatedOrganizationCtrlEntInd>false</RelatedOrganizationCtrlEntInd>
+      <TransactionWithControlEntInd>false</TransactionWithControlEntInd>
+      <PoliticalCampaignActyInd>false</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>false</LobbyingActivitiesInd>
+      <SchoolOperatingInd>false</SchoolOperatingInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>false</TrnsfrExmptNonChrtblRltdOrgInd>
+      <PartVIOfCompOfHghstPdEmplTxt>NONE</PartVIOfCompOfHghstPdEmplTxt>
+      <PartVIHghstPdCntrctProfSrvcTxt>NONE</PartVIHghstPdCntrctProfSrvcTxt>
+    </IRS990EZ>
+    <IRS990ScheduleA documentId="00000002" softwareId="14000261">
+      <PubliclySupportedOrg509a2Ind>X</PubliclySupportedOrg509a2Ind>
+      <PublicSupportTotal170Amt>0</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <TotalAmt>0</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <PublicSupportCY170Pct>0</PublicSupportCY170Pct>
+      <GiftsGrantsContrisRcvd509Grp>
+        <CurrentTaxYearMinus4YearsAmt>32182</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>56244</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>76670</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>84798</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>116465</CurrentTaxYearAmt>
+        <TotalAmt>366359</TotalAmt>
+      </GiftsGrantsContrisRcvd509Grp>
+      <Total509Grp>
+        <CurrentTaxYearMinus4YearsAmt>32182</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>56244</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>76670</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>84798</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>116465</CurrentTaxYearAmt>
+        <TotalAmt>366359</TotalAmt>
+      </Total509Grp>
+      <PublicSupportTotal509Amt>366359</PublicSupportTotal509Amt>
+      <TotalSupportCalendarYearGrp>
+        <TotalAmt>366359</TotalAmt>
+      </TotalSupportCalendarYearGrp>
+      <PublicSupportCY509Pct>1.00000</PublicSupportCY509Pct>
+      <PublicSupportPY509Pct>1.00000</PublicSupportPY509Pct>
+      <InvestmentIncomeCYPct>0</InvestmentIncomeCYPct>
+      <InvestmentIncomePYPct>0.00000</InvestmentIncomePYPct>
+      <ThirtyThrPctSuprtTestsCY509Ind>X</ThirtyThrPctSuprtTestsCY509Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="00000003">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleO documentId="00000004" softwareId="14000261">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990EZ, Part I, Line 16</FormAndLineReferenceDesc>
+        <ExplanationTxt>TUTOR EXPENSES 109922. BANK CHARGES 500. OFFICE SUPPLIES 256. INSURANCE EXPENSES 1849. DUES AND SUBSCRIPTION 535.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+  </ReturnData>
+</Return>

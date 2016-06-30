@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2014v5.0" xsi:schemaLocation="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2015-11-04T08:50:37-08:00</ReturnTs>
+    <TaxPeriodEndDt>2015-09-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Davis &amp; Deal CPAs</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>211 S Glendora Ave Ste A</AddressLine1Txt>
+        <CityNm>Glendora</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91741</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990EZ</ReturnTypeCd>
+    <TaxPeriodBeginDt>2014-10-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>270678774</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>KIWANIS CLUB OF GLENDORA PROJECTS</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>FUND INC</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>KIWA</BusinessNameControlTxt>
+      <PhoneNum>6269630297</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 353</AddressLine1Txt>
+        <CityNm>GLENDORA</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91740</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>LA SHAWN BUTLER</PersonNm>
+      <PersonTitleTxt>President</PersonTitleTxt>
+      <SignatureDt>2015-11-04</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Robert E Davis</PreparerPersonNm>
+      <PTIN>P01414750</PTIN>
+      <PhoneNum>6269630297</PhoneNum>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <TaxYr>2014</TaxYr>
+    <BuildTS>2016-03-07 17:11:31Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS990EZ documentId="IRS990EZ" referenceDocumentId="IRS990ScheduleO TransfersPersonalBenefitsContr" softwareId="14000265" softwareVersionNum="2014v5.0">
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+      <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+      <Organization501c3Ind referenceDocumentId="IRS990ScheduleA">X</Organization501c3Ind>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <GrossReceiptsAmt>66934</GrossReceiptsAmt>
+      <InfoInScheduleOPartIInd>X</InfoInScheduleOPartIInd>
+      <ContributionsGiftsGrantsEtcAmt>1800</ContributionsGiftsGrantsEtcAmt>
+      <CostOrOtherBasisExpenseSaleAmt>0</CostOrOtherBasisExpenseSaleAmt>
+      <GamingGrossIncomeAmt referenceDocumentId="IRS990ScheduleG">31669</GamingGrossIncomeAmt>
+      <FundraisingGrossIncomeAmt referenceDocumentId="IRS990ScheduleG">33465</FundraisingGrossIncomeAmt>
+      <SpecialEventsDirectExpensesAmt>26975</SpecialEventsDirectExpensesAmt>
+      <SpecialEventsNetIncomeLossAmt>38159</SpecialEventsNetIncomeLossAmt>
+      <CostOfGoodsSoldAmt>0</CostOfGoodsSoldAmt>
+      <TotalRevenueAmt>39959</TotalRevenueAmt>
+      <FeesAndOtherPymtToIndCntrctAmt>55</FeesAndOtherPymtToIndCntrctAmt>
+      <OtherExpensesTotalAmt>33863</OtherExpensesTotalAmt>
+      <TotalExpensesAmt>33918</TotalExpensesAmt>
+      <ExcessOrDeficitForYearAmt>6041</ExcessOrDeficitForYearAmt>
+      <NetAssetsOrFundBalancesBOYAmt>48402</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>54443</NetAssetsOrFundBalancesEOYAmt>
+      <InfoInScheduleOPartIIInd>X</InfoInScheduleOPartIIInd>
+      <CashSavingsAndInvestmentsGrp>
+        <BOYAmt>28350</BOYAmt>
+        <EOYAmt>34657</EOYAmt>
+      </CashSavingsAndInvestmentsGrp>
+      <OtherAssetsTotalDetail>
+        <BOYAmt>20052</BOYAmt>
+        <EOYAmt>19786</EOYAmt>
+      </OtherAssetsTotalDetail>
+      <Form990TotalAssetsGrp>
+        <BOYAmt>48402</BOYAmt>
+        <EOYAmt>54443</EOYAmt>
+      </Form990TotalAssetsGrp>
+      <NetAssetsOrFundBalancesGrp>
+        <BOYAmt>48402</BOYAmt>
+        <EOYAmt>54443</EOYAmt>
+      </NetAssetsOrFundBalancesGrp>
+      <PrimaryExemptPurposeTxt>TO SUPPORT AND SERVICE THE COMMUNITY OF GLENDORA AND SURROUNDING COMMUNITIES.</PrimaryExemptPurposeTxt>
+      <ProgramSrvcAccomplishmentGrp>
+        <DescriptionProgramSrvcAccomTxt>TO SUPPORT AND SERVICE THE COMMUNITY OF GLENDORA AND SURROUNDING COMMUNITIES.</DescriptionProgramSrvcAccomTxt>
+        <GrantsAndAllocationsAmt>33825</GrantsAndAllocationsAmt>
+      </ProgramSrvcAccomplishmentGrp>
+      <TotalProgramServiceExpensesAmt>33825</TotalProgramServiceExpensesAmt>
+      <InfoInScheduleOPartIVInd>X</InfoInScheduleOPartIVInd>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>DALE RASMUSSEN</PersonNm>
+        <TitleTxt>Past President</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>LA SHAWN BUTLER</PersonNm>
+        <TitleTxt>President</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>JOHN LUNDSTROM</PersonNm>
+        <TitleTxt>Secretary</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>CORY ELLENSON</PersonNm>
+        <TitleTxt>AssTreasurer</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>ROBERT VOORS</PersonNm>
+        <TitleTxt>Vice President</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>KAREN VARGA</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>JUDY GILLHAM</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>GREG GILLHAM</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>WES MENARD</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>DICK PAULUS</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>KAREN KNUST-GRAICHEN</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>JIM RILEY</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>GREG GOSS</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>KALEENA KHADEMI</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>ELAINE SALAMONE</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>FRANK SALAMONE</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>TERRY DAMRON</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>LEONARD PIHLAK</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>TIM FERGUSON</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>Gene Murabito</PersonNm>
+        <TitleTxt>Treasurer</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <InfoInScheduleOPartVInd>X</InfoInScheduleOPartVInd>
+      <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+      <ChgMadeToOrgnzngDocNotRptInd>false</ChgMadeToOrgnzngDocNotRptInd>
+      <OrganizationHadUBIInd>false</OrganizationHadUBIInd>
+      <OrganizationFiled990TInd>false</OrganizationFiled990TInd>
+      <SubjectToProxyTaxInd>false</SubjectToProxyTaxInd>
+      <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+      <Form1120PolFiledInd>false</Form1120PolFiledInd>
+      <MadeLoansToFromOfficersInd>false</MadeLoansToFromOfficersInd>
+      <InitiationFeesAndCapContriAmt>0</InitiationFeesAndCapContriAmt>
+      <GrossReceiptsForPublicUseAmt>0</GrossReceiptsForPublicUseAmt>
+      <EngagedInExcessBenefitTransInd>false</EngagedInExcessBenefitTransInd>
+      <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      <BooksInCareOfDetail>
+        <PersonNm>CORY ELLENSON</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>432 W LAUREL AVE</AddressLine1Txt>
+          <CityNm>GLENDORA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91741</ZIPCd>
+        </USAddress>
+        <PhoneNum>6263357728</PhoneNum>
+      </BooksInCareOfDetail>
+      <ForeignFinancialAccountInd>false</ForeignFinancialAccountInd>
+      <ForeignOfficeInd>false</ForeignOfficeInd>
+      <DonorAdvisedFndsInd>false</DonorAdvisedFndsInd>
+      <OperateHospitalInd>false</OperateHospitalInd>
+      <TanningServicesProvidedInd>false</TanningServicesProvidedInd>
+      <Form720FiledInd>false</Form720FiledInd>
+      <RelatedOrganizationCtrlEntInd>false</RelatedOrganizationCtrlEntInd>
+      <TransactionWithControlEntInd>false</TransactionWithControlEntInd>
+      <PoliticalCampaignActyInd>false</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>false</LobbyingActivitiesInd>
+      <SchoolOperatingInd>false</SchoolOperatingInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>false</TrnsfrExmptNonChrtblRltdOrgInd>
+      <RelatedOrgSect527OrgInd>false</RelatedOrgSect527OrgInd>
+      <PartVIOfCompOfHghstPdEmplTxt>NONE</PartVIOfCompOfHghstPdEmplTxt>
+      <PartVIHghstPdCntrctProfSrvcTxt>NONE</PartVIHghstPdCntrctProfSrvcTxt>
+      <FiledScheduleAInd>true</FiledScheduleAInd>
+    </IRS990EZ>
+    <IRS990ScheduleA documentId="IRS990ScheduleA" softwareId="14000265" softwareVersionNum="2014v5.0">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus4YearsAmt>25828</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>22729</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>1900</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>11564</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>1800</CurrentTaxYearAmt>
+        <TotalAmt>63821</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TaxRevLeviedOrgnztnlBnft170Grp>
+        <TotalAmt>0</TotalAmt>
+      </TaxRevLeviedOrgnztnlBnft170Grp>
+      <GovtFurnSrvcFcltsVl170Grp>
+        <TotalAmt>0</TotalAmt>
+      </GovtFurnSrvcFcltsVl170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus4YearsAmt>25828</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>22729</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>1900</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>11564</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>1800</CurrentTaxYearAmt>
+        <TotalAmt>63821</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <SubstantialContributorsTotAmt>0</SubstantialContributorsTotAmt>
+      <PublicSupportTotal170Amt>63821</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <TotalAmt>0</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <UnrelatedBusinessNetIncm170Grp>
+        <TotalAmt>0</TotalAmt>
+      </UnrelatedBusinessNetIncm170Grp>
+      <OtherIncome170Grp>
+        <TotalAmt>0</TotalAmt>
+      </OtherIncome170Grp>
+      <TotalSupportAmt>63821</TotalSupportAmt>
+      <PublicSupportCY170Pct>1.00000</PublicSupportCY170Pct>
+      <PublicSupportPY170Pct>1.00000</PublicSupportPY170Pct>
+      <ThirtyThrPctSuprtTestsCY170Ind>X</ThirtyThrPctSuprtTestsCY170Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleG documentId="IRS990ScheduleG" softwareId="14000265" softwareVersionNum="2014v5.0">
+      <FundraisingEventInformationGrp>
+        <Event1Nm>FLASHBACK</Event1Nm>
+        <GrossReceiptsEvent1Amt>30427</GrossReceiptsEvent1Amt>
+        <GrossRevenueEvent1Amt>30427</GrossRevenueEvent1Amt>
+        <OtherDirectExpensesEvent1Amt>17643</OtherDirectExpensesEvent1Amt>
+        <GrossReceiptsTotalAmt>30427</GrossReceiptsTotalAmt>
+        <GrossRevenueTotalEventsAmt>30427</GrossRevenueTotalEventsAmt>
+        <OthDirectExpnssTotalEventsAmt>17643</OthDirectExpnssTotalEventsAmt>
+        <DirectExpenseSummaryEventsAmt>17643</DirectExpenseSummaryEventsAmt>
+        <NetIncomeSummaryAmt>12784</NetIncomeSummaryAmt>
+      </FundraisingEventInformationGrp>
+      <GamingInformationGrp>
+        <VolunteerLaborBingoInd>false</VolunteerLaborBingoInd>
+        <VolunteerLaborPullTabsInd>false</VolunteerLaborPullTabsInd>
+        <GrossRevenueOtherGamingAmt>31669</GrossRevenueOtherGamingAmt>
+        <OthDirectExpnssOtherGamingAmt>8163</OthDirectExpnssOtherGamingAmt>
+        <VolunteerLaborOtherGamingInd>true</VolunteerLaborOtherGamingInd>
+        <VolunteerLaborOtherGamingPct>1.00000</VolunteerLaborOtherGamingPct>
+        <GrossRevenueTotalGamingAmt>31669</GrossRevenueTotalGamingAmt>
+        <OthDirectExpnssTotalGamingAmt>8163</OthDirectExpnssTotalGamingAmt>
+        <DirectExpenseSummaryGamingAmt>8163</DirectExpenseSummaryGamingAmt>
+        <NetGamingIncomeSummaryAmt>23506</NetGamingIncomeSummaryAmt>
+      </GamingInformationGrp>
+      <StatesWhereGamingConductedCd>CA</StatesWhereGamingConductedCd>
+      <LicensedInd>true</LicensedInd>
+      <LicenseSuspendedEtcInd>false</LicenseSuspendedEtcInd>
+      <GamingWithNonmembersInd>true</GamingWithNonmembersInd>
+      <MemberOfOtherEntityInd>false</MemberOfOtherEntityInd>
+      <GamingOtherFacilityPct>1.00000</GamingOtherFacilityPct>
+      <CntrctWith3rdPrtyForGameRevInd>false</CntrctWith3rdPrtyForGameRevInd>
+      <CharitableDistributionRqrInd>false</CharitableDistributionRqrInd>
+    </IRS990ScheduleG>
+    <IRS990ScheduleO documentId="IRS990ScheduleO" softwareId="14000265" softwareVersionNum="2014v5.0">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Client Note 1</FormAndLineReferenceDesc>
+        <ExplanationTxt>Client Note 1 - This an original filing the 990N and 199N was filed in error.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.1</FormAndLineReferenceDesc>
+        <ExplanationTxt>SCHOOL SCHOLARSHIPS $11000</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.2</FormAndLineReferenceDesc>
+        <ExplanationTxt>CONCERTS IN THE PARK $3500</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.3</FormAndLineReferenceDesc>
+        <ExplanationTxt>GLENDORA EDUCATION FD $2500</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.4</FormAndLineReferenceDesc>
+        <ExplanationTxt>GLENDORA WELFAIR ASSOC $2000</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.5</FormAndLineReferenceDesc>
+        <ExplanationTxt>GLENDORA BARTON READING $2000</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.6</FormAndLineReferenceDesc>
+        <ExplanationTxt>WHITCOMB HIGH SCHOOL $1500</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.7</FormAndLineReferenceDesc>
+        <ExplanationTxt>GLENDORA LIBRARY FD $1475</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.8</FormAndLineReferenceDesc>
+        <ExplanationTxt>YELLOW BUS PROGRAM $1200</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.9</FormAndLineReferenceDesc>
+        <ExplanationTxt>AMERICAN CANCER SOCIETY $1000</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.10</FormAndLineReferenceDesc>
+        <ExplanationTxt>CHILDREN'S HOSPITAL LA $1000</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.11</FormAndLineReferenceDesc>
+        <ExplanationTxt>SHEPHERD PANTRY $1000</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.12</FormAndLineReferenceDesc>
+        <ExplanationTxt>SPONSORED YOUTH-GHS $1000</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.13</FormAndLineReferenceDesc>
+        <ExplanationTxt>CITRUS SINGERS $750</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.14</FormAndLineReferenceDesc>
+        <ExplanationTxt>SCIENCE FAIR $700</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.15</FormAndLineReferenceDesc>
+        <ExplanationTxt>EASTER EGG ROLL $600</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.16</FormAndLineReferenceDesc>
+        <ExplanationTxt>EYE-DAS $500</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.17</FormAndLineReferenceDesc>
+        <ExplanationTxt>SPONSORED YOUTH-DAMIEN $500</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.18</FormAndLineReferenceDesc>
+        <ExplanationTxt>SPONSORED YOUTH-ST. LUCY'S $500</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.19</FormAndLineReferenceDesc>
+        <ExplanationTxt>POLICE EXPLOYER PG $400</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.20</FormAndLineReferenceDesc>
+        <ExplanationTxt>GCCC HOLIDAY BASKETS $300</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.21</FormAndLineReferenceDesc>
+        <ExplanationTxt>GCCC CAMPERSHIP $250</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.22</FormAndLineReferenceDesc>
+        <ExplanationTxt>GHS GOLF TOURNAMENT $150</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.23</FormAndLineReferenceDesc>
+        <ExplanationTxt>SUPPLIES $38</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Assets.1</FormAndLineReferenceDesc>
+        <ExplanationTxt>FLASHBACK FUNDS - Beginning $19802 FLASHBACK FUNDS - Ending $19786</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Assets.2</FormAndLineReferenceDesc>
+        <ExplanationTxt>PREPAID EXPENSES - Beginning $250 PREPAID EXPENSES - Ending $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+  </ReturnData>
+</Return>

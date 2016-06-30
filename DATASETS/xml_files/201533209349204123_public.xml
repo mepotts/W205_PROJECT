@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2014v5.0" xsi:schemaLocation="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2015-11-16T12:30:59-08:00</ReturnTs>
+    <TaxPeriodEndDt>2015-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>ROBERTS ALEXONIS GROUP PLLC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>1660 E RIVER RD STE 100</AddressLine1Txt>
+        <CityNm>TUCSON</CityNm>
+        <StateAbbreviationCd>AZ</StateAbbreviationCd>
+        <ZIPCd>857185834</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990EZ</ReturnTypeCd>
+    <TaxPeriodBeginDt>2014-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>274563334</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Foundation for Corporate Tax Credit</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>FOUN</BusinessNameControlTxt>
+      <PhoneNum>5203276395</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>3231 N Craycroft Road</AddressLine1Txt>
+        <CityNm>Tucson</CityNm>
+        <StateAbbreviationCd>AZ</StateAbbreviationCd>
+        <ZIPCd>85712</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Matthew Teller</PersonNm>
+      <PersonTitleTxt>President/Dir</PersonTitleTxt>
+      <SignatureDt>2015-11-16</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>D Jack Roberts CPA</PreparerPersonNm>
+      <PTIN>P00262029</PTIN>
+      <PhoneNum>5208817211</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2014</TaxYr>
+    <BuildTS>2016-04-25 22:37:26Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="4">
+    <IRS990EZ documentId="IRS990EZ" referenceDocumentId="IRS990ScheduleO TransfersPersonalBenefitsContr" softwareId="14000265" softwareVersionNum="2014v5.0">
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <WebsiteAddressTxt>foundationforctc.org</WebsiteAddressTxt>
+      <Organization501c3Ind referenceDocumentId="IRS990ScheduleA">X</Organization501c3Ind>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <GrossReceiptsAmt>72211</GrossReceiptsAmt>
+      <InfoInScheduleOPartIInd>X</InfoInScheduleOPartIInd>
+      <ContributionsGiftsGrantsEtcAmt>72000</ContributionsGiftsGrantsEtcAmt>
+      <InvestmentIncomeAmt>211</InvestmentIncomeAmt>
+      <CostOrOtherBasisExpenseSaleAmt>0</CostOrOtherBasisExpenseSaleAmt>
+      <FundraisingGrossIncomeAmt>0</FundraisingGrossIncomeAmt>
+      <SpecialEventsDirectExpensesAmt>0</SpecialEventsDirectExpensesAmt>
+      <CostOfGoodsSoldAmt>0</CostOfGoodsSoldAmt>
+      <TotalRevenueAmt>72211</TotalRevenueAmt>
+      <FeesAndOtherPymtToIndCntrctAmt>3483</FeesAndOtherPymtToIndCntrctAmt>
+      <OtherExpensesTotalAmt>133817</OtherExpensesTotalAmt>
+      <TotalExpensesAmt>137300</TotalExpensesAmt>
+      <ExcessOrDeficitForYearAmt>-65089</ExcessOrDeficitForYearAmt>
+      <NetAssetsOrFundBalancesBOYAmt>82478</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>17389</NetAssetsOrFundBalancesEOYAmt>
+      <CashSavingsAndInvestmentsGrp>
+        <BOYAmt>82478</BOYAmt>
+        <EOYAmt>17389</EOYAmt>
+      </CashSavingsAndInvestmentsGrp>
+      <Form990TotalAssetsGrp>
+        <BOYAmt>82478</BOYAmt>
+        <EOYAmt>17389</EOYAmt>
+      </Form990TotalAssetsGrp>
+      <NetAssetsOrFundBalancesGrp>
+        <BOYAmt>82478</BOYAmt>
+        <EOYAmt>17389</EOYAmt>
+      </NetAssetsOrFundBalancesGrp>
+      <PrimaryExemptPurposeTxt>TO PROVIDE SCHOLARSHIPS AND GRANTS FOR PRIVATE SCHOOL TUITION TO STUDENTS ATTENDING ONE OF THE FOUNDATION FOR CORPORATE TAX CREDIT MEMBER SCHOOLS</PrimaryExemptPurposeTxt>
+      <ProgramSrvcAccomplishmentGrp>
+        <DescriptionProgramSrvcAccomTxt>SCHOLARSHIPS FOR STUDENTS IN ARIZONA NON PUBLIC SCHOOLS</DescriptionProgramSrvcAccomTxt>
+        <GrantsAndAllocationsAmt>133800</GrantsAndAllocationsAmt>
+      </ProgramSrvcAccomplishmentGrp>
+      <TotalProgramServiceExpensesAmt>133800</TotalProgramServiceExpensesAmt>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>Matthew Teller</PersonNm>
+        <TitleTxt>President/Dir</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>3.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>Carole Knapp</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>Sandy Orrick</PersonNm>
+        <TitleTxt>Secret/Trea/Dir</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>Patrick Mchonett</PersonNm>
+        <TitleTxt>VP/Dir</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <InfoInScheduleOPartVInd>X</InfoInScheduleOPartVInd>
+      <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+      <ChgMadeToOrgnzngDocNotRptInd>false</ChgMadeToOrgnzngDocNotRptInd>
+      <OrganizationHadUBIInd>false</OrganizationHadUBIInd>
+      <OrganizationFiled990TInd>false</OrganizationFiled990TInd>
+      <SubjectToProxyTaxInd>false</SubjectToProxyTaxInd>
+      <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+      <Form1120PolFiledInd>false</Form1120PolFiledInd>
+      <MadeLoansToFromOfficersInd>false</MadeLoansToFromOfficersInd>
+      <InitiationFeesAndCapContriAmt>0</InitiationFeesAndCapContriAmt>
+      <GrossReceiptsForPublicUseAmt>0</GrossReceiptsForPublicUseAmt>
+      <EngagedInExcessBenefitTransInd>false</EngagedInExcessBenefitTransInd>
+      <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      <BooksInCareOfDetail>
+        <PersonNm>Carol Knapp</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>3231 N Craycroft Rd</AddressLine1Txt>
+          <CityNm>Tucson</CityNm>
+          <StateAbbreviationCd>AZ</StateAbbreviationCd>
+          <ZIPCd>85712</ZIPCd>
+        </USAddress>
+        <PhoneNum>5203276395</PhoneNum>
+      </BooksInCareOfDetail>
+      <ForeignFinancialAccountInd>false</ForeignFinancialAccountInd>
+      <ForeignOfficeInd>false</ForeignOfficeInd>
+      <DonorAdvisedFndsInd>false</DonorAdvisedFndsInd>
+      <OperateHospitalInd>false</OperateHospitalInd>
+      <TanningServicesProvidedInd>false</TanningServicesProvidedInd>
+      <Form720FiledInd>false</Form720FiledInd>
+      <RelatedOrganizationCtrlEntInd>false</RelatedOrganizationCtrlEntInd>
+      <TransactionWithControlEntInd>false</TransactionWithControlEntInd>
+      <PoliticalCampaignActyInd>false</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>false</LobbyingActivitiesInd>
+      <SchoolOperatingInd>false</SchoolOperatingInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>false</TrnsfrExmptNonChrtblRltdOrgInd>
+      <RelatedOrgSect527OrgInd>false</RelatedOrgSect527OrgInd>
+      <PartVIOfCompOfHghstPdEmplTxt>NONE</PartVIOfCompOfHghstPdEmplTxt>
+      <PartVIHghstPdCntrctProfSrvcTxt>NONE</PartVIHghstPdCntrctProfSrvcTxt>
+      <FiledScheduleAInd>true</FiledScheduleAInd>
+    </IRS990EZ>
+    <IRS990ScheduleA documentId="IRS990ScheduleA" softwareId="14000265" softwareVersionNum="2014v5.0">
+      <SupportingOrganization509a3Ind>X</SupportingOrganization509a3Ind>
+      <SupportingOrgType1Ind>X</SupportingOrgType1Ind>
+      <SupportedOrganizationsCnt>2</SupportedOrganizationsCnt>
+      <SupportedOrgInformationGrp>
+        <SupportedOrganizationName>
+          <BusinessNameLine1Txt>PHOENIX COUNTRY DAY SCHOOL</BusinessNameLine1Txt>
+        </SupportedOrganizationName>
+        <EIN>860172671</EIN>
+        <OrganizationTypeDesc>PUBLIC CHA</OrganizationTypeDesc>
+        <GoverningDocumentListedInd>false</GoverningDocumentListedInd>
+        <SupportAmt>88300</SupportAmt>
+        <OtherSupportAmt>0</OtherSupportAmt>
+      </SupportedOrgInformationGrp>
+      <SupportedOrgInformationGrp>
+        <SupportedOrganizationName>
+          <BusinessNameLine1Txt>ST GREGORY COLLEGE PREPARATORY SCH</BusinessNameLine1Txt>
+        </SupportedOrganizationName>
+        <EIN>860374130</EIN>
+        <OrganizationTypeDesc>PUBLIC CHA</OrganizationTypeDesc>
+        <GoverningDocumentListedInd>false</GoverningDocumentListedInd>
+        <SupportAmt>45500</SupportAmt>
+        <OtherSupportAmt>0</OtherSupportAmt>
+      </SupportedOrgInformationGrp>
+      <SupportedOrganizationsTotalCnt>2</SupportedOrganizationsTotalCnt>
+      <SupportSumAmt>133800</SupportSumAmt>
+      <Form990SchASupportingOrgGrp>
+        <ListedByNameGoverningDocInd>true</ListedByNameGoverningDocInd>
+        <SuprtOrgNoIRSDeterminationInd>false</SuprtOrgNoIRSDeterminationInd>
+        <SupportedOrgSectionC456Ind>false</SupportedOrgSectionC456Ind>
+        <SupportedOrgNotOrganizedUSInd>false</SupportedOrgNotOrganizedUSInd>
+        <OrganizationChangeSuprtOrgInd>false</OrganizationChangeSuprtOrgInd>
+        <SupportNonSupportedOrgInd>false</SupportNonSupportedOrgInd>
+        <PaymentSubstantialContribtrInd>false</PaymentSubstantialContribtrInd>
+        <LoanDisqualifiedPersonInd>false</LoanDisqualifiedPersonInd>
+        <ControlledDisqualifiedPrsnInd>false</ControlledDisqualifiedPrsnInd>
+        <DisqualifiedPrsnControllIntInd>false</DisqualifiedPrsnControllIntInd>
+        <DisqualifiedPrsnOwnrIntInd>false</DisqualifiedPrsnOwnrIntInd>
+        <ExcessBusinessHoldingsRulesInd>false</ExcessBusinessHoldingsRulesInd>
+        <ContributionControllerInd>false</ContributionControllerInd>
+        <ContributionFamilyInd>false</ContributionFamilyInd>
+        <Contribution35ControlledInd>false</Contribution35ControlledInd>
+      </Form990SchASupportingOrgGrp>
+      <Form990SchAType1SuprtOrgGrp>
+        <PowerAppointMajorityDirTrstInd>true</PowerAppointMajorityDirTrstInd>
+        <OperateBenefitNonSuprtOrgInd>false</OperateBenefitNonSuprtOrgInd>
+      </Form990SchAType1SuprtOrgGrp>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="IRS990ScheduleB" softwareId="14000265" softwareVersionNum="2014v5.0">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleO documentId="IRS990ScheduleO" softwareId="14000265" softwareVersionNum="2014v5.0">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.1002</FormAndLineReferenceDesc>
+        <ExplanationTxt>Office Expenses $17</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Other Expenses.1</FormAndLineReferenceDesc>
+        <ExplanationTxt>Grants for scholarships $133800</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+  </ReturnData>
+</Return>
