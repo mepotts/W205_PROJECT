@@ -6,9 +6,11 @@ This repo contains the PROJECT for w205
 In order to clone the repo do the following
 1.  In the user account (or create a directory which you created for the project), type the command
 git clone https://github.com/ganeshsberkeley/W205_PROJECT
+
 git pull
 
 Also edit the .git/config to change the following line to
+
 url = ssh://git@github.com/ganeshsberkeley/W205_PROJECT
 
 Key Generation
