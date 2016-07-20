@@ -31,7 +31,7 @@
         <ZIPCd>91740</ZIPCd>
       </USAddress>
     </Filer>
-    <BusinessOfficerGrp>
+    <!-- <BusinessOfficerGrp>
       <PersonNm>LA SHAWN BUTLER</PersonNm>
       <PersonTitleTxt>President</PersonTitleTxt>
       <SignatureDt>2015-11-04</SignatureDt>
@@ -42,7 +42,7 @@
       <PTIN>P01414750</PTIN>
       <PhoneNum>6269630297</PhoneNum>
       <SelfEmployedInd>X</SelfEmployedInd>
-    </PreparerPersonGrp>
+    </PreparerPersonGrp> -->
     <TaxYr>2014</TaxYr>
     <BuildTS>2016-03-07 17:11:31Z</BuildTS>
   </ReturnHeader>
@@ -93,7 +93,7 @@
       </ProgramSrvcAccomplishmentGrp>
       <TotalProgramServiceExpensesAmt>33825</TotalProgramServiceExpensesAmt>
       <InfoInScheduleOPartIVInd>X</InfoInScheduleOPartIVInd>
-      <OfficerDirectorTrusteeEmplGrp>
+      <!-- <OfficerDirectorTrusteeEmplGrp>
         <PersonNm>DALE RASMUSSEN</PersonNm>
         <TitleTxt>Past President</TitleTxt>
         <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
@@ -212,7 +212,7 @@
         <TitleTxt>Treasurer</TitleTxt>
         <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
         <CompensationAmt>0</CompensationAmt>
-      </OfficerDirectorTrusteeEmplGrp>
+      </OfficerDirectorTrusteeEmplGrp> -->
       <InfoInScheduleOPartVInd>X</InfoInScheduleOPartVInd>
       <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
       <ChgMadeToOrgnzngDocNotRptInd>false</ChgMadeToOrgnzngDocNotRptInd>
@@ -226,7 +226,7 @@
       <GrossReceiptsForPublicUseAmt>0</GrossReceiptsForPublicUseAmt>
       <EngagedInExcessBenefitTransInd>false</EngagedInExcessBenefitTransInd>
       <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
-      <BooksInCareOfDetail>
+      <!-- <BooksInCareOfDetail>
         <PersonNm>CORY ELLENSON</PersonNm>
         <USAddress>
           <AddressLine1Txt>432 W LAUREL AVE</AddressLine1Txt>
@@ -235,7 +235,7 @@
           <ZIPCd>91741</ZIPCd>
         </USAddress>
         <PhoneNum>6263357728</PhoneNum>
-      </BooksInCareOfDetail>
+      </BooksInCareOfDetail> -->
       <ForeignFinancialAccountInd>false</ForeignFinancialAccountInd>
       <ForeignOfficeInd>false</ForeignOfficeInd>
       <DonorAdvisedFndsInd>false</DonorAdvisedFndsInd>
