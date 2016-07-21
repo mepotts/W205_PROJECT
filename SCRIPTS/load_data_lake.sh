@@ -68,19 +68,19 @@ rm temp
 echo
 echo
 
-#echo
-#echo
-#echo "Move these files into HDFS"
-#hdfs dfs -mkdir /data/PROJ
-#ls *csv > temp
-#while read file
-#do
-#	echo "Moving $file to HDFS"
-#	hdfs dfs -put $file /data/PROJ
-#done < temp
-#rm temp
-#echo
-#echo
+echo
+echo
+echo "Move these files into HDFS"
+hdfs dfs -mkdir /user/w205/PROJ
+ls *csv > temp
+while read file
+do
+	echo "Moving $file to HDFS"
+	hdfs dfs -put $file /user/w205/PROJ
+done < temp
+rm temp
+echo
+echo
 
 echo "Copying the extract_header.pl to renamed backup directory"
 cp ../extract_header.pl $rn_backup
