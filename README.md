@@ -41,10 +41,15 @@ ssh-add ~/.ssh/id_rsa1 (assuming the rsa was stored in the id_rsa1.pub)
 Process to check in files
 -------------------------
 
-Do git status to see what are the files that need to be pushed
-Do git add <file> for all the files that needs to be checked in
-Do git commit -m "Message"
-Do git push -u origin master
+Do 
+
+git status to see what are the files that need to be pushed
+
+git add <file> for all the files that needs to be checked in
+
+git commit -m "Message"
+
+git push -u origin master
 
 
 
