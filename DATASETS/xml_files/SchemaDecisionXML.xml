@@ -3,7 +3,7 @@
   <ReturnHeader binaryAttachmentCnt="0">
     <ReturnTs>2015-11-04T08:50:37-08:00</ReturnTs>
     <TaxPeriodEndDt>2015-09-30</TaxPeriodEndDt>
-    ```<PreparerFirmGrp>
+    <PreparerFirmGrp>
       <PreparerFirmName>
         <BusinessNameLine1Txt>Davis &amp; Deal CPAs</BusinessNameLine1Txt>
       </PreparerFirmName>
@@ -13,7 +13,7 @@
         <StateAbbreviationCd>CA</StateAbbreviationCd>
         <ZIPCd>91741</ZIPCd>
       </PreparerUSAddress>
-    </PreparerFirmGrp>```
+    </PreparerFirmGrp>
     <ReturnTypeCd>990EZ</ReturnTypeCd>
     <TaxPeriodBeginDt>2014-10-01</TaxPeriodBeginDt>
     <Filer>
