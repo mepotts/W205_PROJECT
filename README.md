@@ -52,13 +52,20 @@ git commit -m "Message"
 git push -u origin master
 
 The following scripts are to be used for the project to create tables for hive
+
 1.  cd SCRIPTS
+ 
 2.  ./load_data_lake.py -> It will create all the files needed for loading the csv files to hdfs and load them
+
 3.  cd CSV_FILES/rn_backup
+
 4.  ./extract_header.pl -> It will create the sql headers for sql tables
+
 5. hive -f hive_base_ddl.sql -> Load all the tables into hive
 
+
 Now we are ready to connect to tableau
+
 6.  hive --service hiveserver2 -> To start hive server
 
 Now move on to tablueau to do all the work
