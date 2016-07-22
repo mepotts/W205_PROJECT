@@ -70,7 +70,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -177,7 +177,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -193,20 +193,20 @@ CREATE EXTERNAL TABLE allgmp
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -215,7 +215,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -231,20 +231,20 @@ CREATE EXTERNAL TABLE gmp00998
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -253,7 +253,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -269,20 +269,20 @@ CREATE EXTERNAL TABLE gmp10180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -291,7 +291,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -307,20 +307,20 @@ CREATE EXTERNAL TABLE gmp10420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -329,7 +329,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -345,20 +345,20 @@ CREATE EXTERNAL TABLE gmp10500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -367,7 +367,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -383,20 +383,20 @@ CREATE EXTERNAL TABLE gmp10540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -405,7 +405,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -421,20 +421,20 @@ CREATE EXTERNAL TABLE gmp10580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -443,7 +443,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -459,20 +459,20 @@ CREATE EXTERNAL TABLE gmp10740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -481,7 +481,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -497,20 +497,20 @@ CREATE EXTERNAL TABLE gmp10780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -519,7 +519,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -535,20 +535,20 @@ CREATE EXTERNAL TABLE gmp10900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -557,7 +557,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -573,20 +573,20 @@ CREATE EXTERNAL TABLE gmp11020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -595,7 +595,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -611,20 +611,20 @@ CREATE EXTERNAL TABLE gmp11100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -633,7 +633,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -649,20 +649,20 @@ CREATE EXTERNAL TABLE gmp11180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -671,7 +671,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -687,20 +687,20 @@ CREATE EXTERNAL TABLE gmp11260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -709,7 +709,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -725,20 +725,20 @@ CREATE EXTERNAL TABLE gmp11460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -747,7 +747,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -763,20 +763,20 @@ CREATE EXTERNAL TABLE gmp11500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -785,7 +785,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -801,20 +801,20 @@ CREATE EXTERNAL TABLE gmp11540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -823,7 +823,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -839,20 +839,20 @@ CREATE EXTERNAL TABLE gmp11700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -861,7 +861,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -877,20 +877,20 @@ CREATE EXTERNAL TABLE gmp12020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -899,7 +899,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -915,20 +915,20 @@ CREATE EXTERNAL TABLE gmp12060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -937,7 +937,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -953,20 +953,20 @@ CREATE EXTERNAL TABLE gmp12100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -975,7 +975,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -991,20 +991,20 @@ CREATE EXTERNAL TABLE gmp12220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1013,7 +1013,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1029,20 +1029,20 @@ CREATE EXTERNAL TABLE gmp12260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1051,7 +1051,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1067,20 +1067,20 @@ CREATE EXTERNAL TABLE gmp12420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1089,7 +1089,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1105,20 +1105,20 @@ CREATE EXTERNAL TABLE gmp12540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1127,7 +1127,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1143,20 +1143,20 @@ CREATE EXTERNAL TABLE gmp12580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1165,7 +1165,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1181,20 +1181,20 @@ CREATE EXTERNAL TABLE gmp12620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1203,7 +1203,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1219,20 +1219,20 @@ CREATE EXTERNAL TABLE gmp12700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1241,7 +1241,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1257,20 +1257,20 @@ CREATE EXTERNAL TABLE gmp12940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1279,7 +1279,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1295,20 +1295,20 @@ CREATE EXTERNAL TABLE gmp12980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1317,7 +1317,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1333,20 +1333,20 @@ CREATE EXTERNAL TABLE gmp13020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1355,7 +1355,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1371,20 +1371,20 @@ CREATE EXTERNAL TABLE gmp13140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1393,7 +1393,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1409,20 +1409,20 @@ CREATE EXTERNAL TABLE gmp13220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1431,7 +1431,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1447,20 +1447,20 @@ CREATE EXTERNAL TABLE gmp13380
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1469,7 +1469,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1485,20 +1485,20 @@ CREATE EXTERNAL TABLE gmp13460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1507,7 +1507,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1523,20 +1523,20 @@ CREATE EXTERNAL TABLE gmp13740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1545,7 +1545,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1561,20 +1561,20 @@ CREATE EXTERNAL TABLE gmp13780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1583,7 +1583,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1599,20 +1599,20 @@ CREATE EXTERNAL TABLE gmp13820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1621,7 +1621,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1637,20 +1637,20 @@ CREATE EXTERNAL TABLE gmp13900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1659,7 +1659,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1675,20 +1675,20 @@ CREATE EXTERNAL TABLE gmp13980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1697,7 +1697,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1713,20 +1713,20 @@ CREATE EXTERNAL TABLE gmp14010
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1735,7 +1735,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1751,20 +1751,20 @@ CREATE EXTERNAL TABLE gmp14020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1773,7 +1773,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1789,20 +1789,20 @@ CREATE EXTERNAL TABLE gmp14100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1811,7 +1811,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1827,20 +1827,20 @@ CREATE EXTERNAL TABLE gmp14260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1849,7 +1849,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1865,20 +1865,20 @@ CREATE EXTERNAL TABLE gmp14460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1887,7 +1887,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1903,20 +1903,20 @@ CREATE EXTERNAL TABLE gmp14500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1925,7 +1925,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1941,20 +1941,20 @@ CREATE EXTERNAL TABLE gmp14540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -1963,7 +1963,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -1979,20 +1979,20 @@ CREATE EXTERNAL TABLE gmp14740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2001,7 +2001,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2017,20 +2017,20 @@ CREATE EXTERNAL TABLE gmp14860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2039,7 +2039,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2055,20 +2055,20 @@ CREATE EXTERNAL TABLE gmp15180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2077,7 +2077,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2093,20 +2093,20 @@ CREATE EXTERNAL TABLE gmp15260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2115,7 +2115,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2131,20 +2131,20 @@ CREATE EXTERNAL TABLE gmp15380
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2153,7 +2153,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2169,20 +2169,20 @@ CREATE EXTERNAL TABLE gmp15500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2191,7 +2191,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2207,20 +2207,20 @@ CREATE EXTERNAL TABLE gmp15540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2229,7 +2229,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2245,20 +2245,20 @@ CREATE EXTERNAL TABLE gmp15680
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2267,7 +2267,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2283,20 +2283,20 @@ CREATE EXTERNAL TABLE gmp15940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2305,7 +2305,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2321,20 +2321,20 @@ CREATE EXTERNAL TABLE gmp15980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2343,7 +2343,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2359,20 +2359,20 @@ CREATE EXTERNAL TABLE gmp16020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2381,7 +2381,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2397,20 +2397,20 @@ CREATE EXTERNAL TABLE gmp16060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2419,7 +2419,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2435,20 +2435,20 @@ CREATE EXTERNAL TABLE gmp16180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2457,7 +2457,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2473,20 +2473,20 @@ CREATE EXTERNAL TABLE gmp16220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2495,7 +2495,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2511,20 +2511,20 @@ CREATE EXTERNAL TABLE gmp16300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2533,7 +2533,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2549,20 +2549,20 @@ CREATE EXTERNAL TABLE gmp16540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2571,7 +2571,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2587,20 +2587,20 @@ CREATE EXTERNAL TABLE gmp16580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2609,7 +2609,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2625,20 +2625,20 @@ CREATE EXTERNAL TABLE gmp16620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2647,7 +2647,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2663,20 +2663,20 @@ CREATE EXTERNAL TABLE gmp16700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2685,7 +2685,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2701,20 +2701,20 @@ CREATE EXTERNAL TABLE gmp16740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2723,7 +2723,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2739,20 +2739,20 @@ CREATE EXTERNAL TABLE gmp16820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2761,7 +2761,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2777,20 +2777,20 @@ CREATE EXTERNAL TABLE gmp16860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2799,7 +2799,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2815,20 +2815,20 @@ CREATE EXTERNAL TABLE gmp16940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2837,7 +2837,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2853,20 +2853,20 @@ CREATE EXTERNAL TABLE gmp16980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2875,7 +2875,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2891,20 +2891,20 @@ CREATE EXTERNAL TABLE gmp17020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2913,7 +2913,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2929,20 +2929,20 @@ CREATE EXTERNAL TABLE gmp17140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2951,7 +2951,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -2967,20 +2967,20 @@ CREATE EXTERNAL TABLE gmp17300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -2989,7 +2989,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3005,20 +3005,20 @@ CREATE EXTERNAL TABLE gmp17420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3027,7 +3027,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3043,20 +3043,20 @@ CREATE EXTERNAL TABLE gmp17460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3065,7 +3065,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3081,20 +3081,20 @@ CREATE EXTERNAL TABLE gmp17660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3103,7 +3103,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3119,20 +3119,20 @@ CREATE EXTERNAL TABLE gmp17780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3141,7 +3141,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3157,20 +3157,20 @@ CREATE EXTERNAL TABLE gmp17820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3179,7 +3179,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3195,20 +3195,20 @@ CREATE EXTERNAL TABLE gmp17860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3217,7 +3217,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3233,20 +3233,20 @@ CREATE EXTERNAL TABLE gmp17900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3255,7 +3255,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3271,20 +3271,20 @@ CREATE EXTERNAL TABLE gmp17980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3293,7 +3293,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3309,20 +3309,20 @@ CREATE EXTERNAL TABLE gmp18020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3331,7 +3331,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3347,20 +3347,20 @@ CREATE EXTERNAL TABLE gmp18140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3369,7 +3369,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3385,20 +3385,20 @@ CREATE EXTERNAL TABLE gmp18580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3407,7 +3407,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3423,20 +3423,20 @@ CREATE EXTERNAL TABLE gmp18700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3445,7 +3445,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3461,20 +3461,20 @@ CREATE EXTERNAL TABLE gmp18880
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3483,7 +3483,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3499,20 +3499,20 @@ CREATE EXTERNAL TABLE gmp19060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3521,7 +3521,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3537,20 +3537,20 @@ CREATE EXTERNAL TABLE gmp19100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3559,7 +3559,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3575,20 +3575,20 @@ CREATE EXTERNAL TABLE gmp19140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3597,7 +3597,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3613,20 +3613,20 @@ CREATE EXTERNAL TABLE gmp19180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3635,7 +3635,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3651,20 +3651,20 @@ CREATE EXTERNAL TABLE gmp19300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3673,7 +3673,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3689,20 +3689,20 @@ CREATE EXTERNAL TABLE gmp19340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3711,7 +3711,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3727,20 +3727,20 @@ CREATE EXTERNAL TABLE gmp19380
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3749,7 +3749,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3765,20 +3765,20 @@ CREATE EXTERNAL TABLE gmp19460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3787,7 +3787,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3803,20 +3803,20 @@ CREATE EXTERNAL TABLE gmp19500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3825,7 +3825,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3841,20 +3841,20 @@ CREATE EXTERNAL TABLE gmp19660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3863,7 +3863,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3879,20 +3879,20 @@ CREATE EXTERNAL TABLE gmp19740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3901,7 +3901,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3917,20 +3917,20 @@ CREATE EXTERNAL TABLE gmp19780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3939,7 +3939,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3955,20 +3955,20 @@ CREATE EXTERNAL TABLE gmp19820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -3977,7 +3977,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -3993,20 +3993,20 @@ CREATE EXTERNAL TABLE gmp20020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4015,7 +4015,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4031,20 +4031,20 @@ CREATE EXTERNAL TABLE gmp20100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4053,7 +4053,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4069,20 +4069,20 @@ CREATE EXTERNAL TABLE gmp20220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4091,7 +4091,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4107,20 +4107,20 @@ CREATE EXTERNAL TABLE gmp20260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4129,7 +4129,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4145,20 +4145,20 @@ CREATE EXTERNAL TABLE gmp20500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4167,7 +4167,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4183,20 +4183,20 @@ CREATE EXTERNAL TABLE gmp20700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4205,7 +4205,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4221,20 +4221,20 @@ CREATE EXTERNAL TABLE gmp20740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4243,7 +4243,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4259,20 +4259,20 @@ CREATE EXTERNAL TABLE gmp20940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4281,7 +4281,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4297,20 +4297,20 @@ CREATE EXTERNAL TABLE gmp21060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4319,7 +4319,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4335,20 +4335,20 @@ CREATE EXTERNAL TABLE gmp21140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4357,7 +4357,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4373,20 +4373,20 @@ CREATE EXTERNAL TABLE gmp21300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4395,7 +4395,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4411,20 +4411,20 @@ CREATE EXTERNAL TABLE gmp21340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4433,7 +4433,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4449,20 +4449,20 @@ CREATE EXTERNAL TABLE gmp21500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4471,7 +4471,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4487,20 +4487,20 @@ CREATE EXTERNAL TABLE gmp21660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4509,7 +4509,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4525,20 +4525,20 @@ CREATE EXTERNAL TABLE gmp21780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4547,7 +4547,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4563,20 +4563,20 @@ CREATE EXTERNAL TABLE gmp21820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4585,7 +4585,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4601,20 +4601,20 @@ CREATE EXTERNAL TABLE gmp22020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4623,7 +4623,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4639,20 +4639,20 @@ CREATE EXTERNAL TABLE gmp22140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4661,7 +4661,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4677,20 +4677,20 @@ CREATE EXTERNAL TABLE gmp22180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4699,7 +4699,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4715,20 +4715,20 @@ CREATE EXTERNAL TABLE gmp22220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4737,7 +4737,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4753,20 +4753,20 @@ CREATE EXTERNAL TABLE gmp22380
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4775,7 +4775,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4791,20 +4791,20 @@ CREATE EXTERNAL TABLE gmp22420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4813,7 +4813,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4829,20 +4829,20 @@ CREATE EXTERNAL TABLE gmp22500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4851,7 +4851,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4867,20 +4867,20 @@ CREATE EXTERNAL TABLE gmp22520
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4889,7 +4889,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4905,20 +4905,20 @@ CREATE EXTERNAL TABLE gmp22540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4927,7 +4927,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4943,20 +4943,20 @@ CREATE EXTERNAL TABLE gmp22660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -4965,7 +4965,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -4981,20 +4981,20 @@ CREATE EXTERNAL TABLE gmp22900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5003,7 +5003,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5019,20 +5019,20 @@ CREATE EXTERNAL TABLE gmp23060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5041,7 +5041,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5057,20 +5057,20 @@ CREATE EXTERNAL TABLE gmp23420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5079,7 +5079,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5095,20 +5095,20 @@ CREATE EXTERNAL TABLE gmp23460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5117,7 +5117,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5133,20 +5133,20 @@ CREATE EXTERNAL TABLE gmp23540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5155,7 +5155,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5171,20 +5171,20 @@ CREATE EXTERNAL TABLE gmp23580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5193,7 +5193,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5209,20 +5209,20 @@ CREATE EXTERNAL TABLE gmp23900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5231,7 +5231,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5247,20 +5247,20 @@ CREATE EXTERNAL TABLE gmp24020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5269,7 +5269,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5285,20 +5285,20 @@ CREATE EXTERNAL TABLE gmp24140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5307,7 +5307,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5323,20 +5323,20 @@ CREATE EXTERNAL TABLE gmp24220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5345,7 +5345,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5361,20 +5361,20 @@ CREATE EXTERNAL TABLE gmp24260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5383,7 +5383,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5399,20 +5399,20 @@ CREATE EXTERNAL TABLE gmp24300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5421,7 +5421,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5437,20 +5437,20 @@ CREATE EXTERNAL TABLE gmp24340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5459,7 +5459,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5475,20 +5475,20 @@ CREATE EXTERNAL TABLE gmp24420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5497,7 +5497,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5513,20 +5513,20 @@ CREATE EXTERNAL TABLE gmp24500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5535,7 +5535,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5551,20 +5551,20 @@ CREATE EXTERNAL TABLE gmp24540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5573,7 +5573,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5589,20 +5589,20 @@ CREATE EXTERNAL TABLE gmp24580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5611,7 +5611,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5627,20 +5627,20 @@ CREATE EXTERNAL TABLE gmp24660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5649,7 +5649,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5665,20 +5665,20 @@ CREATE EXTERNAL TABLE gmp24780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5687,7 +5687,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5703,20 +5703,20 @@ CREATE EXTERNAL TABLE gmp24860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5725,7 +5725,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5741,20 +5741,20 @@ CREATE EXTERNAL TABLE gmp25060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5763,7 +5763,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5779,20 +5779,20 @@ CREATE EXTERNAL TABLE gmp25180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5801,7 +5801,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5817,20 +5817,20 @@ CREATE EXTERNAL TABLE gmp25220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5839,7 +5839,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5855,20 +5855,20 @@ CREATE EXTERNAL TABLE gmp25260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5877,7 +5877,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5893,20 +5893,20 @@ CREATE EXTERNAL TABLE gmp25420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5915,7 +5915,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5931,20 +5931,20 @@ CREATE EXTERNAL TABLE gmp25500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5953,7 +5953,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -5969,20 +5969,20 @@ CREATE EXTERNAL TABLE gmp25540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -5991,7 +5991,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6007,20 +6007,20 @@ CREATE EXTERNAL TABLE gmp25620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6029,7 +6029,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6045,20 +6045,20 @@ CREATE EXTERNAL TABLE gmp25860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6067,7 +6067,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6083,20 +6083,20 @@ CREATE EXTERNAL TABLE gmp25940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6105,7 +6105,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6121,20 +6121,20 @@ CREATE EXTERNAL TABLE gmp25980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6143,7 +6143,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6159,20 +6159,20 @@ CREATE EXTERNAL TABLE gmp26140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6181,7 +6181,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6197,20 +6197,20 @@ CREATE EXTERNAL TABLE gmp26300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6219,7 +6219,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6235,20 +6235,20 @@ CREATE EXTERNAL TABLE gmp26380
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6257,7 +6257,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6273,20 +6273,20 @@ CREATE EXTERNAL TABLE gmp26420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6295,7 +6295,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6311,20 +6311,20 @@ CREATE EXTERNAL TABLE gmp26580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6333,7 +6333,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6349,20 +6349,20 @@ CREATE EXTERNAL TABLE gmp26620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6371,7 +6371,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6387,20 +6387,20 @@ CREATE EXTERNAL TABLE gmp26820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6409,7 +6409,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6425,20 +6425,20 @@ CREATE EXTERNAL TABLE gmp26900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6447,7 +6447,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6463,20 +6463,20 @@ CREATE EXTERNAL TABLE gmp26980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6485,7 +6485,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6501,20 +6501,20 @@ CREATE EXTERNAL TABLE gmp27060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6523,7 +6523,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6539,20 +6539,20 @@ CREATE EXTERNAL TABLE gmp27100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6561,7 +6561,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6577,20 +6577,20 @@ CREATE EXTERNAL TABLE gmp27140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6599,7 +6599,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6615,20 +6615,20 @@ CREATE EXTERNAL TABLE gmp27180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6637,7 +6637,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6653,20 +6653,20 @@ CREATE EXTERNAL TABLE gmp27260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6675,7 +6675,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6691,20 +6691,20 @@ CREATE EXTERNAL TABLE gmp27340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6713,7 +6713,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6729,20 +6729,20 @@ CREATE EXTERNAL TABLE gmp27500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6751,7 +6751,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6767,20 +6767,20 @@ CREATE EXTERNAL TABLE gmp27620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6789,7 +6789,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6805,20 +6805,20 @@ CREATE EXTERNAL TABLE gmp27740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6827,7 +6827,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6843,20 +6843,20 @@ CREATE EXTERNAL TABLE gmp27780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6865,7 +6865,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6881,20 +6881,20 @@ CREATE EXTERNAL TABLE gmp27860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6903,7 +6903,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6919,20 +6919,20 @@ CREATE EXTERNAL TABLE gmp27900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6941,7 +6941,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6957,20 +6957,20 @@ CREATE EXTERNAL TABLE gmp27980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -6979,7 +6979,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -6995,20 +6995,20 @@ CREATE EXTERNAL TABLE gmp28020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7017,7 +7017,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7033,20 +7033,20 @@ CREATE EXTERNAL TABLE gmp28100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7055,7 +7055,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7071,20 +7071,20 @@ CREATE EXTERNAL TABLE gmp28140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7093,7 +7093,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7109,20 +7109,20 @@ CREATE EXTERNAL TABLE gmp28420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7131,7 +7131,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7147,20 +7147,20 @@ CREATE EXTERNAL TABLE gmp28660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7169,7 +7169,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7185,20 +7185,20 @@ CREATE EXTERNAL TABLE gmp28700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7207,7 +7207,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7223,20 +7223,20 @@ CREATE EXTERNAL TABLE gmp28740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7245,7 +7245,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7261,20 +7261,20 @@ CREATE EXTERNAL TABLE gmp28940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7283,7 +7283,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7299,20 +7299,20 @@ CREATE EXTERNAL TABLE gmp29020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7321,7 +7321,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7337,20 +7337,20 @@ CREATE EXTERNAL TABLE gmp29100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7359,7 +7359,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7375,20 +7375,20 @@ CREATE EXTERNAL TABLE gmp29180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7397,7 +7397,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7413,20 +7413,20 @@ CREATE EXTERNAL TABLE gmp29200
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7435,7 +7435,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7451,20 +7451,20 @@ CREATE EXTERNAL TABLE gmp29340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7473,7 +7473,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7489,20 +7489,20 @@ CREATE EXTERNAL TABLE gmp29420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7511,7 +7511,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7527,20 +7527,20 @@ CREATE EXTERNAL TABLE gmp29460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7549,7 +7549,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7565,20 +7565,20 @@ CREATE EXTERNAL TABLE gmp29540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7587,7 +7587,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7603,20 +7603,20 @@ CREATE EXTERNAL TABLE gmp29620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7625,7 +7625,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7641,20 +7641,20 @@ CREATE EXTERNAL TABLE gmp29700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7663,7 +7663,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7679,20 +7679,20 @@ CREATE EXTERNAL TABLE gmp29740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7701,7 +7701,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7717,20 +7717,20 @@ CREATE EXTERNAL TABLE gmp29820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7739,7 +7739,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7755,20 +7755,20 @@ CREATE EXTERNAL TABLE gmp29940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7777,7 +7777,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7793,20 +7793,20 @@ CREATE EXTERNAL TABLE gmp30020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7815,7 +7815,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7831,20 +7831,20 @@ CREATE EXTERNAL TABLE gmp30140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7853,7 +7853,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7869,20 +7869,20 @@ CREATE EXTERNAL TABLE gmp30300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7891,7 +7891,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7907,20 +7907,20 @@ CREATE EXTERNAL TABLE gmp30340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7929,7 +7929,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7945,20 +7945,20 @@ CREATE EXTERNAL TABLE gmp30460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -7967,7 +7967,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -7983,20 +7983,20 @@ CREATE EXTERNAL TABLE gmp30620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8005,7 +8005,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8021,20 +8021,20 @@ CREATE EXTERNAL TABLE gmp30700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8043,7 +8043,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8059,20 +8059,20 @@ CREATE EXTERNAL TABLE gmp30780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8081,7 +8081,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8097,20 +8097,20 @@ CREATE EXTERNAL TABLE gmp30860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8119,7 +8119,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8135,20 +8135,20 @@ CREATE EXTERNAL TABLE gmp30980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8157,7 +8157,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8173,20 +8173,20 @@ CREATE EXTERNAL TABLE gmp31020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8195,7 +8195,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8211,20 +8211,20 @@ CREATE EXTERNAL TABLE gmp31080
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8233,7 +8233,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8249,20 +8249,20 @@ CREATE EXTERNAL TABLE gmp31140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8271,7 +8271,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8287,20 +8287,20 @@ CREATE EXTERNAL TABLE gmp31180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8309,7 +8309,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8325,20 +8325,20 @@ CREATE EXTERNAL TABLE gmp31340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8347,7 +8347,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8363,20 +8363,20 @@ CREATE EXTERNAL TABLE gmp31420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8385,7 +8385,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8401,20 +8401,20 @@ CREATE EXTERNAL TABLE gmp31460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8423,7 +8423,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8439,20 +8439,20 @@ CREATE EXTERNAL TABLE gmp31540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8461,7 +8461,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8477,20 +8477,20 @@ CREATE EXTERNAL TABLE gmp31700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8499,7 +8499,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8515,20 +8515,20 @@ CREATE EXTERNAL TABLE gmp31740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8537,7 +8537,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8553,20 +8553,20 @@ CREATE EXTERNAL TABLE gmp31860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8575,7 +8575,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8591,20 +8591,20 @@ CREATE EXTERNAL TABLE gmp31900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8613,7 +8613,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8629,20 +8629,20 @@ CREATE EXTERNAL TABLE gmp32580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8651,7 +8651,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8667,20 +8667,20 @@ CREATE EXTERNAL TABLE gmp32780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8689,7 +8689,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8705,20 +8705,20 @@ CREATE EXTERNAL TABLE gmp32820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8727,7 +8727,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8743,20 +8743,20 @@ CREATE EXTERNAL TABLE gmp32900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8765,7 +8765,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8781,20 +8781,20 @@ CREATE EXTERNAL TABLE gmp33100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8803,7 +8803,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8819,20 +8819,20 @@ CREATE EXTERNAL TABLE gmp33140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8841,7 +8841,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8857,20 +8857,20 @@ CREATE EXTERNAL TABLE gmp33220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8879,7 +8879,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8895,20 +8895,20 @@ CREATE EXTERNAL TABLE gmp33260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8917,7 +8917,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8933,20 +8933,20 @@ CREATE EXTERNAL TABLE gmp33340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8955,7 +8955,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -8971,20 +8971,20 @@ CREATE EXTERNAL TABLE gmp33460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -8993,7 +8993,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9009,20 +9009,20 @@ CREATE EXTERNAL TABLE gmp33540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9031,7 +9031,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9047,20 +9047,20 @@ CREATE EXTERNAL TABLE gmp33660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9069,7 +9069,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9085,20 +9085,20 @@ CREATE EXTERNAL TABLE gmp33700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9107,7 +9107,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9123,20 +9123,20 @@ CREATE EXTERNAL TABLE gmp33740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9145,7 +9145,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9161,20 +9161,20 @@ CREATE EXTERNAL TABLE gmp33780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9183,7 +9183,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9199,20 +9199,20 @@ CREATE EXTERNAL TABLE gmp33860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9221,7 +9221,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9237,20 +9237,20 @@ CREATE EXTERNAL TABLE gmp34060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9259,7 +9259,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9275,20 +9275,20 @@ CREATE EXTERNAL TABLE gmp34100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9297,7 +9297,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9313,20 +9313,20 @@ CREATE EXTERNAL TABLE gmp34580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9335,7 +9335,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9351,20 +9351,20 @@ CREATE EXTERNAL TABLE gmp34620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9373,7 +9373,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9389,20 +9389,20 @@ CREATE EXTERNAL TABLE gmp34740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9411,7 +9411,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9427,20 +9427,20 @@ CREATE EXTERNAL TABLE gmp34820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9449,7 +9449,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9465,20 +9465,20 @@ CREATE EXTERNAL TABLE gmp34900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9487,7 +9487,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9503,20 +9503,20 @@ CREATE EXTERNAL TABLE gmp34940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9525,7 +9525,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9541,20 +9541,20 @@ CREATE EXTERNAL TABLE gmp34980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9563,7 +9563,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9579,20 +9579,20 @@ CREATE EXTERNAL TABLE gmp35100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9601,7 +9601,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9617,20 +9617,20 @@ CREATE EXTERNAL TABLE gmp35300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9639,7 +9639,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9655,20 +9655,20 @@ CREATE EXTERNAL TABLE gmp35380
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9677,7 +9677,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9693,20 +9693,20 @@ CREATE EXTERNAL TABLE gmp35620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9715,7 +9715,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9731,20 +9731,20 @@ CREATE EXTERNAL TABLE gmp35660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9753,7 +9753,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9769,20 +9769,20 @@ CREATE EXTERNAL TABLE gmp35840
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9791,7 +9791,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9807,20 +9807,20 @@ CREATE EXTERNAL TABLE gmp35980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9829,7 +9829,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9845,20 +9845,20 @@ CREATE EXTERNAL TABLE gmp36100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9867,7 +9867,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9883,20 +9883,20 @@ CREATE EXTERNAL TABLE gmp36140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9905,7 +9905,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9921,20 +9921,20 @@ CREATE EXTERNAL TABLE gmp36220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9943,7 +9943,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9959,20 +9959,20 @@ CREATE EXTERNAL TABLE gmp36260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -9981,7 +9981,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -9997,20 +9997,20 @@ CREATE EXTERNAL TABLE gmp36420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10019,7 +10019,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10035,20 +10035,20 @@ CREATE EXTERNAL TABLE gmp36500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10057,7 +10057,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10073,20 +10073,20 @@ CREATE EXTERNAL TABLE gmp36540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10095,7 +10095,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10111,20 +10111,20 @@ CREATE EXTERNAL TABLE gmp36740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10133,7 +10133,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10149,20 +10149,20 @@ CREATE EXTERNAL TABLE gmp36780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10171,7 +10171,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10187,20 +10187,20 @@ CREATE EXTERNAL TABLE gmp36980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10209,7 +10209,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10225,20 +10225,20 @@ CREATE EXTERNAL TABLE gmp37100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10247,7 +10247,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10263,20 +10263,20 @@ CREATE EXTERNAL TABLE gmp37340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10285,7 +10285,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10301,20 +10301,20 @@ CREATE EXTERNAL TABLE gmp37460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10323,7 +10323,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10339,20 +10339,20 @@ CREATE EXTERNAL TABLE gmp37620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10361,7 +10361,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10377,20 +10377,20 @@ CREATE EXTERNAL TABLE gmp37860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10399,7 +10399,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10415,20 +10415,20 @@ CREATE EXTERNAL TABLE gmp37900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10437,7 +10437,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10453,20 +10453,20 @@ CREATE EXTERNAL TABLE gmp37980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10475,7 +10475,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10491,20 +10491,20 @@ CREATE EXTERNAL TABLE gmp38060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10513,7 +10513,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10529,20 +10529,20 @@ CREATE EXTERNAL TABLE gmp38220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10551,7 +10551,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10567,20 +10567,20 @@ CREATE EXTERNAL TABLE gmp38300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10589,7 +10589,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10605,20 +10605,20 @@ CREATE EXTERNAL TABLE gmp38340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10627,7 +10627,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10643,20 +10643,20 @@ CREATE EXTERNAL TABLE gmp38540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10665,7 +10665,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10681,20 +10681,20 @@ CREATE EXTERNAL TABLE gmp38860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10703,7 +10703,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10719,20 +10719,20 @@ CREATE EXTERNAL TABLE gmp38900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10741,7 +10741,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10757,20 +10757,20 @@ CREATE EXTERNAL TABLE gmp38940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10779,7 +10779,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10795,20 +10795,20 @@ CREATE EXTERNAL TABLE gmp39140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10817,7 +10817,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10833,20 +10833,20 @@ CREATE EXTERNAL TABLE gmp39300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10855,7 +10855,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10871,20 +10871,20 @@ CREATE EXTERNAL TABLE gmp39340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10893,7 +10893,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10909,20 +10909,20 @@ CREATE EXTERNAL TABLE gmp39380
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10931,7 +10931,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10947,20 +10947,20 @@ CREATE EXTERNAL TABLE gmp39460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -10969,7 +10969,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -10985,20 +10985,20 @@ CREATE EXTERNAL TABLE gmp39540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11007,7 +11007,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11023,20 +11023,20 @@ CREATE EXTERNAL TABLE gmp39580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11045,7 +11045,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11061,20 +11061,20 @@ CREATE EXTERNAL TABLE gmp39660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11083,7 +11083,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11099,20 +11099,20 @@ CREATE EXTERNAL TABLE gmp39740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11121,7 +11121,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11137,20 +11137,20 @@ CREATE EXTERNAL TABLE gmp39820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11159,7 +11159,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11175,20 +11175,20 @@ CREATE EXTERNAL TABLE gmp39900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11197,7 +11197,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11213,20 +11213,20 @@ CREATE EXTERNAL TABLE gmp40060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11235,7 +11235,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11251,20 +11251,20 @@ CREATE EXTERNAL TABLE gmp40140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11273,7 +11273,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11289,20 +11289,20 @@ CREATE EXTERNAL TABLE gmp40220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11311,7 +11311,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11327,20 +11327,20 @@ CREATE EXTERNAL TABLE gmp40340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11349,7 +11349,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11365,20 +11365,20 @@ CREATE EXTERNAL TABLE gmp40380
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11387,7 +11387,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11403,20 +11403,20 @@ CREATE EXTERNAL TABLE gmp40420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11425,7 +11425,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11441,20 +11441,20 @@ CREATE EXTERNAL TABLE gmp40580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11463,7 +11463,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11479,20 +11479,20 @@ CREATE EXTERNAL TABLE gmp40660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11501,7 +11501,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11517,20 +11517,20 @@ CREATE EXTERNAL TABLE gmp40900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11539,7 +11539,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11555,20 +11555,20 @@ CREATE EXTERNAL TABLE gmp40980
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11577,7 +11577,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11593,20 +11593,20 @@ CREATE EXTERNAL TABLE gmp41060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11615,7 +11615,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11631,20 +11631,20 @@ CREATE EXTERNAL TABLE gmp41100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11653,7 +11653,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11669,20 +11669,20 @@ CREATE EXTERNAL TABLE gmp41140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11691,7 +11691,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11707,20 +11707,20 @@ CREATE EXTERNAL TABLE gmp41180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11729,7 +11729,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11745,20 +11745,20 @@ CREATE EXTERNAL TABLE gmp41420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11767,7 +11767,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11783,20 +11783,20 @@ CREATE EXTERNAL TABLE gmp41500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11805,7 +11805,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11821,20 +11821,20 @@ CREATE EXTERNAL TABLE gmp41540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11843,7 +11843,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11859,20 +11859,20 @@ CREATE EXTERNAL TABLE gmp41620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11881,7 +11881,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11897,20 +11897,20 @@ CREATE EXTERNAL TABLE gmp41660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11919,7 +11919,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11935,20 +11935,20 @@ CREATE EXTERNAL TABLE gmp41700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11957,7 +11957,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -11973,20 +11973,20 @@ CREATE EXTERNAL TABLE gmp41740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -11995,7 +11995,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12011,20 +12011,20 @@ CREATE EXTERNAL TABLE gmp41860
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12033,7 +12033,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12049,20 +12049,20 @@ CREATE EXTERNAL TABLE gmp41940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12071,7 +12071,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12087,20 +12087,20 @@ CREATE EXTERNAL TABLE gmp42020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12109,7 +12109,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12125,20 +12125,20 @@ CREATE EXTERNAL TABLE gmp42100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12147,7 +12147,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12163,20 +12163,20 @@ CREATE EXTERNAL TABLE gmp42140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12185,7 +12185,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12201,20 +12201,20 @@ CREATE EXTERNAL TABLE gmp42200
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12223,7 +12223,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12239,20 +12239,20 @@ CREATE EXTERNAL TABLE gmp42220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12261,7 +12261,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12277,20 +12277,20 @@ CREATE EXTERNAL TABLE gmp42340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12299,7 +12299,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12315,20 +12315,20 @@ CREATE EXTERNAL TABLE gmp42540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12337,7 +12337,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12353,20 +12353,20 @@ CREATE EXTERNAL TABLE gmp42660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12375,7 +12375,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12391,20 +12391,20 @@ CREATE EXTERNAL TABLE gmp42680
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12413,7 +12413,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12429,20 +12429,20 @@ CREATE EXTERNAL TABLE gmp42700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12451,7 +12451,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12467,20 +12467,20 @@ CREATE EXTERNAL TABLE gmp43100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12489,7 +12489,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12505,20 +12505,20 @@ CREATE EXTERNAL TABLE gmp43300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12527,7 +12527,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12543,20 +12543,20 @@ CREATE EXTERNAL TABLE gmp43340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12565,7 +12565,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12581,20 +12581,20 @@ CREATE EXTERNAL TABLE gmp43420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12603,7 +12603,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12619,20 +12619,20 @@ CREATE EXTERNAL TABLE gmp43580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12641,7 +12641,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12657,20 +12657,20 @@ CREATE EXTERNAL TABLE gmp43620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12679,7 +12679,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12695,20 +12695,20 @@ CREATE EXTERNAL TABLE gmp43780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12717,7 +12717,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12733,20 +12733,20 @@ CREATE EXTERNAL TABLE gmp43900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12755,7 +12755,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12771,20 +12771,20 @@ CREATE EXTERNAL TABLE gmp44060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12793,7 +12793,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12809,20 +12809,20 @@ CREATE EXTERNAL TABLE gmp44100
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12831,7 +12831,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12847,20 +12847,20 @@ CREATE EXTERNAL TABLE gmp44140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12869,7 +12869,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12885,20 +12885,20 @@ CREATE EXTERNAL TABLE gmp44180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12907,7 +12907,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12923,20 +12923,20 @@ CREATE EXTERNAL TABLE gmp44220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12945,7 +12945,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12961,20 +12961,20 @@ CREATE EXTERNAL TABLE gmp44300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -12983,7 +12983,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -12999,20 +12999,20 @@ CREATE EXTERNAL TABLE gmp44420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13021,7 +13021,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13037,20 +13037,20 @@ CREATE EXTERNAL TABLE gmp44700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13059,7 +13059,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13075,20 +13075,20 @@ CREATE EXTERNAL TABLE gmp44940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13097,7 +13097,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13113,20 +13113,20 @@ CREATE EXTERNAL TABLE gmp45060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13135,7 +13135,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13151,20 +13151,20 @@ CREATE EXTERNAL TABLE gmp45220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13173,7 +13173,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13189,20 +13189,20 @@ CREATE EXTERNAL TABLE gmp45300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13211,7 +13211,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13227,20 +13227,20 @@ CREATE EXTERNAL TABLE gmp45460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13249,7 +13249,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13265,20 +13265,20 @@ CREATE EXTERNAL TABLE gmp45500
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13287,7 +13287,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13303,20 +13303,20 @@ CREATE EXTERNAL TABLE gmp45540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13325,7 +13325,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13341,20 +13341,20 @@ CREATE EXTERNAL TABLE gmp45780
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13363,7 +13363,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13379,20 +13379,20 @@ CREATE EXTERNAL TABLE gmp45820
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13401,7 +13401,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13417,20 +13417,20 @@ CREATE EXTERNAL TABLE gmp45940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13439,7 +13439,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13455,20 +13455,20 @@ CREATE EXTERNAL TABLE gmp46060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13477,7 +13477,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13493,20 +13493,20 @@ CREATE EXTERNAL TABLE gmp46140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13515,7 +13515,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13531,20 +13531,20 @@ CREATE EXTERNAL TABLE gmp46220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13553,7 +13553,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13569,20 +13569,20 @@ CREATE EXTERNAL TABLE gmp46340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13591,7 +13591,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13607,20 +13607,20 @@ CREATE EXTERNAL TABLE gmp46520
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13629,7 +13629,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13645,20 +13645,20 @@ CREATE EXTERNAL TABLE gmp46540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13667,7 +13667,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13683,20 +13683,20 @@ CREATE EXTERNAL TABLE gmp46660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13705,7 +13705,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13721,20 +13721,20 @@ CREATE EXTERNAL TABLE gmp46700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13743,7 +13743,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13759,20 +13759,20 @@ CREATE EXTERNAL TABLE gmp47020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13781,7 +13781,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13797,20 +13797,20 @@ CREATE EXTERNAL TABLE gmp47220
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13819,7 +13819,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13835,20 +13835,20 @@ CREATE EXTERNAL TABLE gmp47260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13857,7 +13857,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13873,20 +13873,20 @@ CREATE EXTERNAL TABLE gmp47300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13895,7 +13895,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13911,20 +13911,20 @@ CREATE EXTERNAL TABLE gmp47380
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13933,7 +13933,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13949,20 +13949,20 @@ CREATE EXTERNAL TABLE gmp47460
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -13971,7 +13971,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -13987,20 +13987,20 @@ CREATE EXTERNAL TABLE gmp47580
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14009,7 +14009,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14025,20 +14025,20 @@ CREATE EXTERNAL TABLE gmp47900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14047,7 +14047,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14063,20 +14063,20 @@ CREATE EXTERNAL TABLE gmp47940
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14085,7 +14085,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14101,20 +14101,20 @@ CREATE EXTERNAL TABLE gmp48060
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14123,7 +14123,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14139,20 +14139,20 @@ CREATE EXTERNAL TABLE gmp48140
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14161,7 +14161,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14177,20 +14177,20 @@ CREATE EXTERNAL TABLE gmp48260
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14199,7 +14199,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14215,20 +14215,20 @@ CREATE EXTERNAL TABLE gmp48300
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14237,7 +14237,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14253,20 +14253,20 @@ CREATE EXTERNAL TABLE gmp48540
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14275,7 +14275,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14291,20 +14291,20 @@ CREATE EXTERNAL TABLE gmp48620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14313,7 +14313,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14329,20 +14329,20 @@ CREATE EXTERNAL TABLE gmp48660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14351,7 +14351,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14367,20 +14367,20 @@ CREATE EXTERNAL TABLE gmp48700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14389,7 +14389,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14405,20 +14405,20 @@ CREATE EXTERNAL TABLE gmp48900
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14427,7 +14427,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14443,20 +14443,20 @@ CREATE EXTERNAL TABLE gmp49020
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14465,7 +14465,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14481,20 +14481,20 @@ CREATE EXTERNAL TABLE gmp49180
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14503,7 +14503,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14519,20 +14519,20 @@ CREATE EXTERNAL TABLE gmp49340
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14541,7 +14541,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14557,20 +14557,20 @@ CREATE EXTERNAL TABLE gmp49420
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14579,7 +14579,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14595,20 +14595,20 @@ CREATE EXTERNAL TABLE gmp49620
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14617,7 +14617,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14633,20 +14633,20 @@ CREATE EXTERNAL TABLE gmp49660
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14655,7 +14655,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14671,20 +14671,20 @@ CREATE EXTERNAL TABLE gmp49700
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14693,7 +14693,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14709,20 +14709,20 @@ CREATE EXTERNAL TABLE gmp49740
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14731,7 +14731,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14747,20 +14747,20 @@ CREATE EXTERNAL TABLE gmpGDP
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14769,7 +14769,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14785,20 +14785,20 @@ CREATE EXTERNAL TABLE gmpPCGDP
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14807,7 +14807,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14823,20 +14823,20 @@ CREATE EXTERNAL TABLE gmpQI
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14845,7 +14845,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14861,20 +14861,20 @@ CREATE EXTERNAL TABLE gmpRGDP
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14883,7 +14883,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
@@ -14899,25 +14899,25 @@ CREATE EXTERNAL TABLE gsp_naics_all
 	IndustryId string,
 	IndustryClassification string,
 	Description string,
-	1997 string,
-	1998 string,
-	1999 string,
-	2000 string,
-	2001 string,
-	2002 string,
-	2003 string,
-	2004 string,
-	2005 string,
-	2006 string,
-	2007 string,
-	2008 string,
-	2009 string,
-	2010 string,
-	2011 string,
-	2012 string,
-	2013 string,
-	2014 string,
-	2015 string
+	CONV_1997 string,
+	CONV_1998 string,
+	CONV_1999 string,
+	CONV_2000 string,
+	CONV_2001 string,
+	CONV_2002 string,
+	CONV_2003 string,
+	CONV_2004 string,
+	CONV_2005 string,
+	CONV_2006 string,
+	CONV_2007 string,
+	CONV_2008 string,
+	CONV_2009 string,
+	CONV_2010 string,
+	CONV_2011 string,
+	CONV_2012 string,
+	CONV_2013 string,
+	CONV_2014 string,
+	CONV_2015 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
@@ -14926,7 +14926,7 @@ WITH SERDEPROPERTIES(
 "escapeChar"='\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/exercise_1';
+LOCATION '/user/w205/PROJ';
 
 
 
