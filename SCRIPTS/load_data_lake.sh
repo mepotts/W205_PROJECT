@@ -44,6 +44,7 @@ ls ../../DATASETS/*csv > temp
 ls ../../DATASETS/GDP_Metro/*csv >> temp
 ls ../../DATASETS/GDP_State/*csv >> temp
 ls ../../DATASETS/IRSIndex/*csv >> temp
+ls ../../DATASETS/Georelations/*csv >> temp
 while read file
 do
 	cp -rf "$file" .
