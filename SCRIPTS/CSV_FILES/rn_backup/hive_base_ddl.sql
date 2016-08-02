@@ -14953,951 +14953,6 @@ LOCATION '/user/w205/PROJ';
 
 
 
-DROP TABLE IF EXISTS indexaa;
-CREATE EXTERNAL TABLE indexaa
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexab;
-CREATE EXTERNAL TABLE indexab
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexac;
-CREATE EXTERNAL TABLE indexac
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexad;
-CREATE EXTERNAL TABLE indexad
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexae;
-CREATE EXTERNAL TABLE indexae
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexaf;
-CREATE EXTERNAL TABLE indexaf
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexag;
-CREATE EXTERNAL TABLE indexag
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexah;
-CREATE EXTERNAL TABLE indexah
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexai;
-CREATE EXTERNAL TABLE indexai
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexaj;
-CREATE EXTERNAL TABLE indexaj
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexak;
-CREATE EXTERNAL TABLE indexak
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexal;
-CREATE EXTERNAL TABLE indexal
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexam;
-CREATE EXTERNAL TABLE indexam
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexan;
-CREATE EXTERNAL TABLE indexan
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexao;
-CREATE EXTERNAL TABLE indexao
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexap;
-CREATE EXTERNAL TABLE indexap
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexaq;
-CREATE EXTERNAL TABLE indexaq
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexar;
-CREATE EXTERNAL TABLE indexar
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexas;
-CREATE EXTERNAL TABLE indexas
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexat;
-CREATE EXTERNAL TABLE indexat
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexau;
-CREATE EXTERNAL TABLE indexau
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexav;
-CREATE EXTERNAL TABLE indexav
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexaw;
-CREATE EXTERNAL TABLE indexaw
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexax;
-CREATE EXTERNAL TABLE indexax
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexay;
-CREATE EXTERNAL TABLE indexay
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexaz;
-CREATE EXTERNAL TABLE indexaz
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexba;
-CREATE EXTERNAL TABLE indexba
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexbb;
-CREATE EXTERNAL TABLE indexbb
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexbc;
-CREATE EXTERNAL TABLE indexbc
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexbd;
-CREATE EXTERNAL TABLE indexbd
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexbe;
-CREATE EXTERNAL TABLE indexbe
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexbf;
-CREATE EXTERNAL TABLE indexbf
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexbg;
-CREATE EXTERNAL TABLE indexbg
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexbh;
-CREATE EXTERNAL TABLE indexbh
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
-DROP TABLE IF EXISTS indexbi;
-CREATE EXTERNAL TABLE indexbi
-(
-	EIN string,
-	_SubmittedOn string,
-	_TaxPeriod string,
-	_DLN string,
-	_LastUpdated string,
-	_FormType string,
-	_ObjectId string,
-	_OrganizationName string,
-	_IsElectronic string,
-	_IsAvailable string,
-	_URL string
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES(
-"separatorChar"=",",
-"quoteChar"='"',
-"escapeChar"='\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/PROJ';
-
-
-
-
 DROP TABLE IF EXISTS xmldata;
 CREATE EXTERNAL TABLE xmldata
 (
@@ -15919,34 +14974,34 @@ CREATE EXTERNAL TABLE xmldata
 	Filer string,
 	EIN string,
 	BusinessName string,
-	BusinessNameLine1Txt string,
+	BusinessNameLine1Txt_DUP string,
 	BusinessNameControlTxt string,
 	PhoneNum string,
 	USAddress string,
-	AddressLine1Txt string,
-	CityNm string,
-	StateAbbreviationCd string,
-	ZIPCd string,
+	AddressLine1Txt_DUP string,
+	CityNm_DUP string,
+	StateAbbreviationCd_DUP string,
+	ZIPCd_DUP string,
 	BusinessOfficerGrp string,
 	PersonNm string,
 	PersonTitleTxt string,
-	PhoneNum string,
+	PhoneNum_DUP string,
 	SignatureDt string,
 	PreparerPersonGrp string,
 	PreparerPersonNm string,
 	PTIN string,
-	PhoneNum string,
+	PhoneNum_DUP1 string,
 	PreparationDt string,
 	TaxYr string,
 	BuildTS string,
 	ReturnData string,
 	IRS990 string,
 	PrincipalOfficerNm string,
-	USAddress string,
-	AddressLine1Txt string,
-	CityNm string,
-	StateAbbreviationCd string,
-	ZIPCd string,
+	USAddress_DUP string,
+	AddressLine1Txt_DUP1 string,
+	CityNm_DUP1 string,
+	StateAbbreviationCd_DUP1 string,
+	ZIPCd_DUP1 string,
 	GrossReceiptsAmt string,
 	GroupReturnForAffiliatesInd string,
 	Organization501c3Ind string,
@@ -16081,97 +15136,97 @@ CREATE EXTERNAL TABLE xmldata
 	OtherWebsiteInd string,
 	UponRequestInd string,
 	BooksInCareOfDetail string,
-	PersonNm string,
-	PhoneNum string,
-	USAddress string,
-	AddressLine1Txt string,
-	CityNm string,
-	StateAbbreviationCd string,
-	ZIPCd string,
+	PersonNm_DUP string,
+	PhoneNum_DUP2 string,
+	USAddress_DUP1 string,
+	AddressLine1Txt_DUP2 string,
+	CityNm_DUP2 string,
+	StateAbbreviationCd_DUP2 string,
+	ZIPCd_DUP2 string,
 	Form990PartVIISectionAGrp string,
-	PersonNm string,
+	PersonNm_DUP1 string,
 	TitleTxt string,
 	AverageHoursPerWeekRt string,
 	IndividualTrusteeOrDirectorInd string,
 	ReportableCompFromOrgAmt string,
 	ReportableCompFromRltdOrgAmt string,
 	OtherCompensationAmt string,
-	Form990PartVIISectionAGrp string,
-	PersonNm string,
-	TitleTxt string,
-	AverageHoursPerWeekRt string,
-	IndividualTrusteeOrDirectorInd string,
-	ReportableCompFromOrgAmt string,
-	ReportableCompFromRltdOrgAmt string,
-	OtherCompensationAmt string,
-	Form990PartVIISectionAGrp string,
-	PersonNm string,
-	TitleTxt string,
-	AverageHoursPerWeekRt string,
-	IndividualTrusteeOrDirectorInd string,
-	ReportableCompFromOrgAmt string,
-	ReportableCompFromRltdOrgAmt string,
-	OtherCompensationAmt string,
-	Form990PartVIISectionAGrp string,
-	PersonNm string,
-	TitleTxt string,
-	AverageHoursPerWeekRt string,
-	IndividualTrusteeOrDirectorInd string,
-	ReportableCompFromOrgAmt string,
-	ReportableCompFromRltdOrgAmt string,
-	OtherCompensationAmt string,
-	Form990PartVIISectionAGrp string,
-	PersonNm string,
-	TitleTxt string,
-	AverageHoursPerWeekRt string,
-	IndividualTrusteeOrDirectorInd string,
+	Form990PartVIISectionAGrp_DUP string,
+	PersonNm_DUP2 string,
+	TitleTxt_DUP string,
+	AverageHoursPerWeekRt_DUP string,
+	IndividualTrusteeOrDirectorInd_DUP string,
+	ReportableCompFromOrgAmt_DUP string,
+	ReportableCompFromRltdOrgAmt_DUP string,
+	OtherCompensationAmt_DUP string,
+	Form990PartVIISectionAGrp_DUP1 string,
+	PersonNm_DUP3 string,
+	TitleTxt_DUP1 string,
+	AverageHoursPerWeekRt_DUP1 string,
+	IndividualTrusteeOrDirectorInd_DUP1 string,
+	ReportableCompFromOrgAmt_DUP1 string,
+	ReportableCompFromRltdOrgAmt_DUP1 string,
+	OtherCompensationAmt_DUP1 string,
+	Form990PartVIISectionAGrp_DUP2 string,
+	PersonNm_DUP4 string,
+	TitleTxt_DUP2 string,
+	AverageHoursPerWeekRt_DUP2 string,
+	IndividualTrusteeOrDirectorInd_DUP2 string,
+	ReportableCompFromOrgAmt_DUP2 string,
+	ReportableCompFromRltdOrgAmt_DUP2 string,
+	OtherCompensationAmt_DUP2 string,
+	Form990PartVIISectionAGrp_DUP3 string,
+	PersonNm_DUP5 string,
+	TitleTxt_DUP3 string,
+	AverageHoursPerWeekRt_DUP3 string,
+	IndividualTrusteeOrDirectorInd_DUP3 string,
 	OfficerInd string,
-	ReportableCompFromOrgAmt string,
-	ReportableCompFromRltdOrgAmt string,
-	OtherCompensationAmt string,
-	Form990PartVIISectionAGrp string,
-	PersonNm string,
-	TitleTxt string,
-	AverageHoursPerWeekRt string,
-	IndividualTrusteeOrDirectorInd string,
-	OfficerInd string,
-	ReportableCompFromOrgAmt string,
-	ReportableCompFromRltdOrgAmt string,
-	OtherCompensationAmt string,
-	Form990PartVIISectionAGrp string,
-	PersonNm string,
-	TitleTxt string,
-	AverageHoursPerWeekRt string,
-	IndividualTrusteeOrDirectorInd string,
-	ReportableCompFromOrgAmt string,
-	ReportableCompFromRltdOrgAmt string,
-	OtherCompensationAmt string,
-	Form990PartVIISectionAGrp string,
-	PersonNm string,
-	TitleTxt string,
-	AverageHoursPerWeekRt string,
-	IndividualTrusteeOrDirectorInd string,
-	OfficerInd string,
-	ReportableCompFromOrgAmt string,
-	ReportableCompFromRltdOrgAmt string,
-	OtherCompensationAmt string,
-	Form990PartVIISectionAGrp string,
-	PersonNm string,
-	TitleTxt string,
-	AverageHoursPerWeekRt string,
-	IndividualTrusteeOrDirectorInd string,
-	OfficerInd string,
-	ReportableCompFromOrgAmt string,
-	ReportableCompFromRltdOrgAmt string,
-	OtherCompensationAmt string,
-	Form990PartVIISectionAGrp string,
-	PersonNm string,
-	TitleTxt string,
-	AverageHoursPerWeekRt string,
-	OfficerInd string,
-	ReportableCompFromOrgAmt string,
-	ReportableCompFromRltdOrgAmt string,
-	OtherCompensationAmt string,
+	ReportableCompFromOrgAmt_DUP3 string,
+	ReportableCompFromRltdOrgAmt_DUP3 string,
+	OtherCompensationAmt_DUP3 string,
+	Form990PartVIISectionAGrp_DUP4 string,
+	PersonNm_DUP6 string,
+	TitleTxt_DUP4 string,
+	AverageHoursPerWeekRt_DUP4 string,
+	IndividualTrusteeOrDirectorInd_DUP4 string,
+	OfficerInd_DUP string,
+	ReportableCompFromOrgAmt_DUP4 string,
+	ReportableCompFromRltdOrgAmt_DUP4 string,
+	OtherCompensationAmt_DUP4 string,
+	Form990PartVIISectionAGrp_DUP5 string,
+	PersonNm_DUP7 string,
+	TitleTxt_DUP5 string,
+	AverageHoursPerWeekRt_DUP5 string,
+	IndividualTrusteeOrDirectorInd_DUP5 string,
+	ReportableCompFromOrgAmt_DUP5 string,
+	ReportableCompFromRltdOrgAmt_DUP5 string,
+	OtherCompensationAmt_DUP5 string,
+	Form990PartVIISectionAGrp_DUP6 string,
+	PersonNm_DUP8 string,
+	TitleTxt_DUP6 string,
+	AverageHoursPerWeekRt_DUP6 string,
+	IndividualTrusteeOrDirectorInd_DUP6 string,
+	OfficerInd_DUP1 string,
+	ReportableCompFromOrgAmt_DUP6 string,
+	ReportableCompFromRltdOrgAmt_DUP6 string,
+	OtherCompensationAmt_DUP6 string,
+	Form990PartVIISectionAGrp_DUP7 string,
+	PersonNm_DUP9 string,
+	TitleTxt_DUP7 string,
+	AverageHoursPerWeekRt_DUP7 string,
+	IndividualTrusteeOrDirectorInd_DUP7 string,
+	OfficerInd_DUP2 string,
+	ReportableCompFromOrgAmt_DUP7 string,
+	ReportableCompFromRltdOrgAmt_DUP7 string,
+	OtherCompensationAmt_DUP7 string,
+	Form990PartVIISectionAGrp_DUP8 string,
+	PersonNm_DUP10 string,
+	TitleTxt_DUP8 string,
+	AverageHoursPerWeekRt_DUP8 string,
+	OfficerInd_DUP3 string,
+	ReportableCompFromOrgAmt_DUP8 string,
+	ReportableCompFromRltdOrgAmt_DUP8 string,
+	OtherCompensationAmt_DUP8 string,
 	TotalReportableCompFromOrgAmt string,
 	FormerOfcrEmployeesListedInd string,
 	TotalCompGreaterThan150KInd string,
@@ -16186,108 +15241,108 @@ CREATE EXTERNAL TABLE xmldata
 	LessCostOthBasisSalesExpnssGrp string,
 	OtherAmt string,
 	GainOrLossGrp string,
-	OtherAmt string,
+	OtherAmt_DUP string,
 	NetGainOrLossInvestmentsGrp string,
-	TotalRevenueColumnAmt string,
+	TotalRevenueColumnAmt_DUP string,
 	RelatedOrExemptFuncIncomeAmt string,
 	FundraisingGrossIncomeAmt string,
 	FundraisingDirectExpensesAmt string,
 	NetIncmFromFundraisingEvtGrp string,
-	TotalRevenueColumnAmt string,
+	TotalRevenueColumnAmt_DUP1 string,
 	TotalRevenueGrp string,
-	TotalRevenueColumnAmt string,
-	RelatedOrExemptFuncIncomeAmt string,
-	ExclusionAmt string,
+	TotalRevenueColumnAmt_DUP2 string,
+	RelatedOrExemptFuncIncomeAmt_DUP string,
+	ExclusionAmt_DUP string,
 	CompCurrentOfcrDirectorsGrp string,
 	TotalAmt string,
 	ProgramServicesAmt string,
 	OtherSalariesAndWagesGrp string,
-	TotalAmt string,
-	ProgramServicesAmt string,
+	TotalAmt_DUP string,
+	ProgramServicesAmt_DUP string,
 	PayrollTaxesGrp string,
-	TotalAmt string,
-	ProgramServicesAmt string,
+	TotalAmt_DUP1 string,
+	ProgramServicesAmt_DUP1 string,
 	FeesForServicesAccountingGrp string,
-	TotalAmt string,
+	TotalAmt_DUP2 string,
 	ManagementAndGeneralAmt string,
 	OccupancyGrp string,
-	TotalAmt string,
-	ProgramServicesAmt string,
+	TotalAmt_DUP3 string,
+	ProgramServicesAmt_DUP2 string,
 	TravelGrp string,
-	TotalAmt string,
-	ProgramServicesAmt string,
+	TotalAmt_DUP4 string,
+	ProgramServicesAmt_DUP3 string,
 	DepreciationDepletionGrp string,
-	TotalAmt string,
-	ProgramServicesAmt string,
+	TotalAmt_DUP5 string,
+	ProgramServicesAmt_DUP4 string,
 	InsuranceGrp string,
-	TotalAmt string,
-	ProgramServicesAmt string,
+	TotalAmt_DUP6 string,
+	ProgramServicesAmt_DUP5 string,
 	OtherExpensesGrp string,
-	Desc string,
-	TotalAmt string,
-	ProgramServicesAmt string,
-	OtherExpensesGrp string,
-	Desc string,
-	TotalAmt string,
-	ProgramServicesAmt string,
-	OtherExpensesGrp string,
-	Desc string,
-	TotalAmt string,
-	ProgramServicesAmt string,
-	OtherExpensesGrp string,
-	Desc string,
-	TotalAmt string,
-	ProgramServicesAmt string,
+	Desc_DUP string,
+	TotalAmt_DUP7 string,
+	ProgramServicesAmt_DUP6 string,
+	OtherExpensesGrp_DUP string,
+	Desc_DUP1 string,
+	TotalAmt_DUP8 string,
+	ProgramServicesAmt_DUP7 string,
+	OtherExpensesGrp_DUP1 string,
+	Desc_DUP2 string,
+	TotalAmt_DUP9 string,
+	ProgramServicesAmt_DUP8 string,
+	OtherExpensesGrp_DUP2 string,
+	Desc_DUP3 string,
+	TotalAmt_DUP10 string,
+	ProgramServicesAmt_DUP9 string,
 	AllOtherExpensesGrp string,
-	TotalAmt string,
-	ProgramServicesAmt string,
+	TotalAmt_DUP11 string,
+	ProgramServicesAmt_DUP10 string,
 	TotalFunctionalExpensesGrp string,
-	TotalAmt string,
-	ProgramServicesAmt string,
-	ManagementAndGeneralAmt string,
+	TotalAmt_DUP12 string,
+	ProgramServicesAmt_DUP11 string,
+	ManagementAndGeneralAmt_DUP string,
 	FundraisingAmt string,
 	SavingsAndTempCashInvstGrp string,
 	BOYAmt string,
 	EOYAmt string,
 	PledgesAndGrantsReceivableGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP string,
+	EOYAmt_DUP string,
 	PrepaidExpensesDefrdChargesGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP1 string,
+	EOYAmt_DUP1 string,
 	LandBldgEquipCostOrOtherBssAmt string,
 	LandBldgEquipAccumDeprecAmt string,
 	LandBldgEquipBasisNetGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP2 string,
+	EOYAmt_DUP2 string,
 	OtherAssetsTotalGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP3 string,
+	EOYAmt_DUP3 string,
 	TotalAssetsGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP4 string,
+	EOYAmt_DUP4 string,
 	AccountsPayableAccrExpnssGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP5 string,
+	EOYAmt_DUP5 string,
 	OtherLiabilitiesGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP6 string,
+	EOYAmt_DUP6 string,
 	TotalLiabilitiesGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP7 string,
+	EOYAmt_DUP7 string,
 	OrganizationFollowsSFAS117Ind string,
 	UnrestrictedNetAssetsGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP8 string,
+	EOYAmt_DUP8 string,
 	TemporarilyRstrNetAssetsGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP9 string,
+	EOYAmt_DUP9 string,
 	TotalNetAssetsFundBalanceGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP10 string,
+	EOYAmt_DUP10 string,
 	TotLiabNetAssetsFundBalanceGrp string,
-	BOYAmt string,
-	EOYAmt string,
+	BOYAmt_DUP11 string,
+	EOYAmt_DUP11 string,
 	ReconcilationRevenueExpnssAmt string,
 	MethodOfAccountingAccrualInd string,
 	AccountantCompileOrReviewInd string,
@@ -16304,22 +15359,22 @@ CREATE EXTERNAL TABLE xmldata
 	CurrentTaxYearMinus2YearsAmt string,
 	CurrentTaxYearMinus1YearAmt string,
 	CurrentTaxYearAmt string,
-	TotalAmt string,
+	TotalAmt_DUP13 string,
 	TotalCalendarYear170Grp string,
-	CurrentTaxYearMinus4YearsAmt string,
-	CurrentTaxYearMinus3YearsAmt string,
-	CurrentTaxYearMinus2YearsAmt string,
-	CurrentTaxYearMinus1YearAmt string,
-	CurrentTaxYearAmt string,
-	TotalAmt string,
+	CurrentTaxYearMinus4YearsAmt_DUP string,
+	CurrentTaxYearMinus3YearsAmt_DUP string,
+	CurrentTaxYearMinus2YearsAmt_DUP string,
+	CurrentTaxYearMinus1YearAmt_DUP string,
+	CurrentTaxYearAmt_DUP string,
+	TotalAmt_DUP14 string,
 	PublicSupportTotal170Amt string,
 	GrossInvestmentIncome170Grp string,
-	CurrentTaxYearMinus4YearsAmt string,
-	CurrentTaxYearMinus3YearsAmt string,
-	CurrentTaxYearMinus2YearsAmt string,
-	CurrentTaxYearMinus1YearAmt string,
-	CurrentTaxYearAmt string,
-	TotalAmt string,
+	CurrentTaxYearMinus4YearsAmt_DUP1 string,
+	CurrentTaxYearMinus3YearsAmt_DUP1 string,
+	CurrentTaxYearMinus2YearsAmt_DUP1 string,
+	CurrentTaxYearMinus1YearAmt_DUP1 string,
+	CurrentTaxYearAmt_DUP1 string,
+	TotalAmt_DUP15 string,
 	TotalSupportAmt string,
 	GrossReceiptsRltdActivitiesAmt string,
 	PublicSupportCY170Pct string,
@@ -16336,31 +15391,31 @@ CREATE EXTERNAL TABLE xmldata
 	City string,
 	State string,
 	ZIPCode string,
-	TotalContributionsAmt string,
+	TotalContributionsAmt_DUP string,
 	IRS990ScheduleD string,
 	LandGrp string,
 	OtherCostOrOtherBasisAmt string,
 	BookValueAmt string,
 	BuildingsGrp string,
-	OtherCostOrOtherBasisAmt string,
+	OtherCostOrOtherBasisAmt_DUP string,
 	DepreciationAmt string,
-	BookValueAmt string,
+	BookValueAmt_DUP string,
 	EquipmentGrp string,
-	OtherCostOrOtherBasisAmt string,
-	DepreciationAmt string,
-	BookValueAmt string,
+	OtherCostOrOtherBasisAmt_DUP1 string,
+	DepreciationAmt_DUP string,
+	BookValueAmt_DUP1 string,
 	TotalBookValueLandBuildingsAmt string,
 	OtherAssetsOrgGrp string,
-	Desc string,
-	BookValueAmt string,
-	OtherAssetsOrgGrp string,
-	Desc string,
-	BookValueAmt string,
-	OtherAssetsOrgGrp string,
-	Desc string,
+	Desc_DUP4 string,
+	BookValueAmt_DUP2 string,
+	OtherAssetsOrgGrp_DUP string,
+	Desc_DUP5 string,
+	BookValueAmt_DUP3 string,
+	OtherAssetsOrgGrp_DUP1 string,
+	Desc_DUP6 string,
 	TotalBookValueOtherAssetsAmt string,
 	OtherLiabilitiesOrgGrp string,
-	Desc string,
+	Desc_DUP7 string,
 	Amt string,
 	TotalLiabilityAmt string,
 	TotalRevEtcAuditedFinclStmtAmt string,
@@ -16385,9 +15440,9 @@ CREATE EXTERNAL TABLE xmldata
 	SupplementalInformationDetail string,
 	FormAndLineReferenceDesc string,
 	ExplanationTxt string,
-	SupplementalInformationDetail string,
-	FormAndLineReferenceDesc string,
-	ExplanationTxt string
+	SupplementalInformationDetail_DUP string,
+	FormAndLineReferenceDesc_DUP string,
+	ExplanationTxt_DUP string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES(
